@@ -2,20 +2,51 @@
   "nom": "BECOM-D",
   "adresse": "https://becom-d-maquette.vercel.app",
   "siteActuel": "becom-d.fr",
-  "version": 1,
-  "langues": ["fr"],
-  "navigation": ["accueil", "competences", "robotique-sous-marine", "contact"],
-  "actionEntete": { "page": "contact", "ancre": "" },
-  "couleurs": { "fond": "#ECEFEE", "texte": "#10263F", "voile": "#10263F", "ouverture": "#ECEFEE", "menu": "#10263F", "theme": "#ECEFEE" },
+  "version": 2,
+  "langues": [
+    "fr"
+  ],
+  "navigation": [
+    "accueil",
+    "competences",
+    "mecanique-generale",
+    "robotique-sous-marine",
+    "mecatronique",
+    "design-et-communication",
+    "prototypage-rapide-sla",
+    "contact"
+  ],
+  "actionEntete": {
+    "page": "contact",
+    "ancre": ""
+  },
+  "couleurs": {
+    "fond": "#ECEFEE",
+    "texte": "#10263F",
+    "voile": "#10263F",
+    "ouverture": "#ECEFEE",
+    "menu": "#10263F",
+    "theme": "#ECEFEE"
+  },
   "contact": {
     "interlocuteur": "Frédéric De San Nicolas",
-    "telephone": "06 78 75 28 33", "telephoneLien": "+33678752833",
-    "fixe": "04 67 44 35 69", "fixeLien": "+33467443569",
+    "telephone": "06 78 75 28 33",
+    "telephoneLien": "+33678752833",
+    "fixe": "04 67 44 35 69",
+    "fixeLien": "+33467443569",
     "email": "fdsn@becom-d.fr",
-    "rue": "7 bis, route de Saint-Privat", "ville": "34700 Saint-Jean-de-la-Blaquière",
+    "rue": "7 bis, route de Saint-Privat",
+    "ville": "34700 Saint-Jean-de-la-Blaquière",
     "adresse": "7 bis, route de Saint-Privat, 34700 Saint-Jean-de-la-Blaquière"
   },
-  "polices": ["/assets/polices/archivo-titres.woff2", "/assets/polices/plex-sans.woff2"],
+  "polices": [
+    "/assets/polices/archivo-titres.woff2",
+    "/assets/polices/plex-sans.woff2"
+  ],
   "imagePartage": "site/rov-hilarion-1199.webp",
-  "curseur": true
+  "curseur": true,
+  "enteteNavigation": [
+    "competences",
+    "robotique-sous-marine"
+  ]
 }

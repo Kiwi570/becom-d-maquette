@@ -31,7 +31,10 @@
     "adresse": "Adresse",
     "decrire": "Décrire mon projet",
     "folio": "Folio",
-    "be": "Bureau d’études"
+    "be": "Bureau d’études",
+    "domaines": "Domaines",
+    "legende": "Légende",
+    "realisationsACompleter": "Description du projet à compléter par le client."
   },
   "pages": {
     "accueil": {
@@ -75,6 +78,34 @@
       "nav": "Page introuvable",
       "partageAlt": "Page introuvable",
       "accroche": "Cote hors tolérance"
+    },
+    "mecanique-generale": {
+      "titre": "Mécanique générale : BECOM-D, conception mécanique et micro-mécanique",
+      "description": "Conception mécanique générale et micro-mécanique, de l’étude de faisabilité au prototype : les réalisations de BECOM-D, bureau d’études dans l’Hérault.",
+      "nav": "Mécanique générale",
+      "partageAlt": "Mécanique générale par BECOM-D : pièces mécaniques usinées",
+      "accroche": "Conception mécanique générale et micro-mécanique"
+    },
+    "mecatronique": {
+      "titre": "Mécatronique : BECOM-D, conception clé en main avec Airbotech",
+      "description": "BECOM-D et Airbotech, bureau d’études en conception électronique, proposent la conception clé en main de vos projets de mécatronique.",
+      "nav": "Mécatronique",
+      "partageAlt": "Mécatronique par BECOM-D : électronique dans un caisson usiné",
+      "accroche": "La conception clé en main de vos projets de mécatronique"
+    },
+    "design-et-communication": {
+      "titre": "Design et communication : BECOM-D, design produit et rendus",
+      "description": "Un design en accord avec la fonction de vos produits, et des vues artistiques, rendus photoréalistes et vidéos de synthèse pour les présenter.",
+      "nav": "Design et communication",
+      "partageAlt": "Design et communication par BECOM-D : maquettes d’étude de forme",
+      "accroche": "Design produit, vues artistiques et rendus photoréalistes"
+    },
+    "prototypage-rapide-sla": {
+      "titre": "Prototypage rapide SLA : BECOM-D, impression 3D Form 2",
+      "description": "Impression 3D par stéréolithographie en qualité industrielle : Form 2, couches de 25 à 100 microns, résines classiques et techniques.",
+      "nav": "Prototypage rapide SLA",
+      "partageAlt": "Prototypage rapide SLA par BECOM-D : pièces en résine sur la plateforme",
+      "accroche": "Impression 3D SLA en qualité industrielle"
     }
   },
   "accueil": {
@@ -113,7 +144,7 @@
       "repere": "03 · Domaines",
       "titre": "Cinq domaines, un même bureau d’études",
       "voir": "Voir la page",
-      "detail": "Voir dans Compétences",
+      "detail": "Voir la page",
       "glisser": "Mécanique, robotique, mécatronique, design, prototypage"
     },
     "realisations": {
@@ -374,5 +405,115 @@
     "texte": "Cette page n’existe pas ou a été déplacée : la pièce ne tombe pas dans son contour.",
     "retour": "Revenir à l’accueil",
     "alt": "Une pièce usinée posée à côté de son contour au crayon, qui ne correspond pas"
+  },
+  "dom": {
+    "mecanique-generale": {
+      "info": "Plus de 25 ans d’expérience",
+      "action": "Décrire mon projet de mécanique",
+      "texte": "Spécialiste de la conception mécanique générale et micro-mécanique, BECOM‑D développe vos futurs produits innovants.",
+      "alt": "Engrenage, roulement et arbre usinés posés sur du papier calque",
+      "s1Repere": "01 · Conception",
+      "s1Titre": "De l’esquisse au rendu",
+      "s1Texte": "De l’étude de faisabilité jusqu’au prototypage, BECOM‑D s’adapte à votre façon de travailler, selon vos besoins : nucléaire, offshore, assainissement, ou votre secteur.",
+      "s1Legende": "Mécanisme à levier · de l’esquisse au rendu",
+      "s2Repere": "02 · Réalisations",
+      "s2Titre": "Deux projets, du trait à la pièce",
+      "osmose": "Unité Osmose",
+      "osmoseTexte": "Unité sur châssis, tuyauteries et pompes : du plan au trait au rendu réaliste.",
+      "osmose1": "Le trait",
+      "osmose2": "Le rendu",
+      "osmose3": "Le rendu réaliste",
+      "oceanview": "Caisson Oceanview VR",
+      "oceanviewTexte": "Caisson cylindrique : le plan, la simulation des déformations, puis la pièce usinée.",
+      "oceanview1": "Le trait",
+      "oceanview2": "La simulation",
+      "oceanview3": "La pièce usinée",
+      "s3Repere": "03 · Outils",
+      "s3Titre": "Simulation et validation",
+      "s3Texte": "Sous SolidWorks Premium : outils spécialisés pour la tôlerie, les assemblages soudés, les surfaces, les moules, les outils et les matrices, et outils de simulation et de validation des conceptions.",
+      "s3Alt": "Simulation des contraintes sur une bague usinée, en deux vues",
+      "finTitre": "Une pièce, un mécanisme à concevoir ?",
+      "finTexte": "Une idée, un schéma, un cahier des charges : décrivez votre projet."
+    },
+    "mecatronique": {
+      "info": "Clé en main, avec Airbotech",
+      "action": "Décrire mon projet de mécatronique",
+      "texte": "En parfaite synergie avec la société Airbotech, bureau d’études en conception électronique, BECOM‑D vous propose la conception clé en main de vos projets de mécatronique.",
+      "alt": "Carte électronique et câblage dans un caisson usiné ouvert",
+      "s1Repere": "01 · Deux bureaux d’études",
+      "s1Titre": "La mécanique et l’électronique, ensemble",
+      "s1Texte": "Un seul projet, deux métiers : la conception mécanique par BECOM‑D, la conception électronique par Airbotech.",
+      "cMeca": "Conception mécanique",
+      "cMecaV": "BECOM‑D",
+      "cElec": "Conception électronique",
+      "cElecV": "Airbotech",
+      "cProjet": "Votre projet",
+      "cProjetV": "Clé en main",
+      "s1Legende": "Caisson et électronique · de l’esquisse au rendu",
+      "airbotech": "Le site d’Airbotech",
+      "s2Repere": "02 · Réalisation",
+      "s2Titre": "Caisson électronique",
+      "s2Texte": "Vue éclatée d’un caisson étanche et de ses cartes électroniques.",
+      "s2Alt": "Vue éclatée d’un caisson étanche et de ses cartes électroniques",
+      "finTitre": "Un projet de mécatronique ?",
+      "finTexte": "Mécanique et électronique : décrivez votre besoin, nous revenons vers vous."
+    },
+    "design-et-communication": {
+      "info": "Design produit et rendus photoréalistes",
+      "action": "Décrire mon projet de design",
+      "texte": "Démarquez-vous auprès de vos clients en apportant à vos produits un design en totale adéquation avec leurs fonctionnalités.",
+      "alt": "Maquettes d’étude de forme en mousse et en argile sur une table de dessin",
+      "s1Repere": "01 · Design",
+      "s1Titre": "La forme suit la fonction",
+      "s1Texte": "Parce que l’aspect esthétique de vos produits doit être aussi performant que leurs capacités techniques, BECOM‑D prend en compte l’impact visuel de vos produits et vous propose un design unique.",
+      "s1Legende": "Étude de forme · de l’esquisse au rendu",
+      "d1": "Engin à coque alvéolée",
+      "d1Alt": "Rendu 3D d’un engin à coque verte alvéolée et propulseurs",
+      "d2": "Coque alvéolée",
+      "d2Alt": "Rendu 3D d’une coque rouge alvéolée",
+      "s2Repere": "02 · Communication",
+      "s2Titre": "Montrer vos produits avant qu’ils existent",
+      "s2Texte": "Augmentez l’impact visuel de vos produits auprès de vos clients en intégrant dans vos outils de communication des vues artistiques, des rendus photoréalistes et des vidéos en images de synthèse.",
+      "v1": "Vue artistique",
+      "v1Alt": "Vue éclatée au trait d’un mécanisme, sur fond de béton clair",
+      "v2": "Rendu photoréaliste",
+      "v2Alt": "Rendu photoréaliste d’un ROV à coque rouge",
+      "v3": "Rendu photoréaliste",
+      "v3Alt": "Rendu photoréaliste d’une unité de filtration",
+      "video": "Vidéos en images de synthèse : exemples à fournir par le client.",
+      "finTitre": "Un produit à dessiner, à présenter ?",
+      "finTexte": "Design, rendus, vues artistiques : décrivez votre besoin."
+    },
+    "prototypage-rapide-sla": {
+      "info": "Form 2 · couches de 25 à 100 microns",
+      "action": "Décrire mon prototype",
+      "texte": "BECOM‑D vous propose l’impression 3D de bureau, en qualité industrielle.",
+      "alt": "Pièces en résine translucide suspendues à la plateforme d’une imprimante SLA, sous lumière UV",
+      "s1Repere": "01 · Stéréolithographie",
+      "s1Titre": "Couche par couche",
+      "s1Texte": "La stéréolithographie construit un modèle par couches, en durcissant un polymère liquide à l’aide d’un rayon laser. L’imprimante 3D Form 2 dont BECOM‑D est équipé permet de créer des pièces de haute qualité à un coût réduit.",
+      "s2Repere": "02 · Résines",
+      "s2Titre": "Choisir la résine",
+      "classiques": "Résines classiques",
+      "classiquesV": "Noire, grise, blanche, claire.",
+      "r1": "Haute résistance",
+      "r1V": "Caractéristiques proches de l’ABS.",
+      "r2": "Haute température",
+      "r2V": "Déflexion à la chaleur de 289 °C : applications statiques à haute température, moulage par injection, thermoformage.",
+      "r3": "Flexible",
+      "r3V": "Simule un caoutchouc de dureté 80A.",
+      "r4": "Durable",
+      "r4V": "Caractéristiques proches du polypropylène.",
+      "speciales": "Résines spéciales",
+      "specialesV": "Joaillerie, dentaire, céramique.",
+      "s2Legende": "Coque alvéolée · de l’esquisse au prototype",
+      "s3Repere": "03 · Matière",
+      "s3Titre": "Sur place, ou en bonne matière",
+      "s3Texte": "Obtenez vos prototypes en impression 3D SLA sur place, ou en bonne matière grâce au réseau de partenaires de BECOM‑D.",
+      "s3Alt": "Caisson Oceanview VR usiné en aluminium",
+      "s3Legende": "Caisson Oceanview VR · usiné en bonne matière",
+      "finTitre": "Un prototype à imprimer ?",
+      "finTexte": "Envoyez vos fichiers 3D ou décrivez la pièce : dimensions, usage, matière."
+    }
   }
 }

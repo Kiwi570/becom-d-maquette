@@ -2,6 +2,23 @@
 
 Chaque version ajoute sa partie en tête de ce fichier, construite en comparant l'archive précédente et la nouvelle, jamais de mémoire.
 
+## v2 — les quatre pages domaines
+
+**Nouvelles pages** (modèle commun `source/gabarits/domaine.mjs`)
+- Mécanique générale : esquisse → rendu, deux projets du trait à la pièce (unité Osmose, caisson Oceanview VR), simulation sous SolidWorks.
+- Mécatronique : la mécanique de BECOM-D et l'électronique d'Airbotech dans un cartouche, lien vers le site d'Airbotech, caisson électronique en vue éclatée.
+- Design et communication : étude de forme esquisse → rendu, rendus d'engins, vue artistique et rendus photoréalistes ; vidéos de synthèse « à fournir ».
+- Prototypage rapide SLA : « Couche par couche » (titre en strates, volume de la Form 2), spécifications, six familles de résines, « Sur place, ou en bonne matière ».
+- Chaque page : ouverture avec image Grok (« Illustration générée »), bouton « Décrire mon projet » qui préremplit le domaine dans le formulaire Contact, image de partage propre.
+
+**Navigation**
+- Le menu et le pied de page listent les 8 pages ; l'en-tête garde Compétences et Robotique sous-marine, et le bouton Menu reste visible sur ordinateur.
+- Les cartes de domaines (accueil et Compétences) mènent désormais à la page de chaque domaine (« Voir la page »).
+
+**Technique**
+- Numéro de version des feuilles de style et des scripts passé à 2 (le navigateur recharge les nouveaux fichiers).
+- L'audit suit aussi la page Prototypage rapide SLA comme page type du nouveau modèle.
+
 ## v1 — la base
 
 **Pages**

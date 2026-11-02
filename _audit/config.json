@@ -1,5 +1,19 @@
 {
   "siteActuel": "becom-d.fr",
-  "pagesTypes": ["/", "/competences", "/robotique-sous-marine", "/contact"],
-  "effets": ["plan-matiere", "cotation", "trait-piece", "encrage", "plongee", "strates", "cartouche"]
+  "pagesTypes": [
+    "/",
+    "/competences",
+    "/robotique-sous-marine",
+    "/prototypage-rapide-sla",
+    "/contact"
+  ],
+  "effets": [
+    "plan-matiere",
+    "cotation",
+    "trait-piece",
+    "encrage",
+    "plongee",
+    "strates",
+    "cartouche"
+  ]
 }

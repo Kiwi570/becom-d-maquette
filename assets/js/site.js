@@ -9,7 +9,7 @@
    - strates      : titre, photo et volume d'impression se construisent couche par couche ;
    - cartouche    : les traits du cartouche se dessinent, puis les cases se remplissent.
    Aucune lecture de mise en page pendant le défilement : tout est mesuré au chargement et au redimensionnement. */
-import { demarrer, etat, quand, rafraichir } from './socle/index.js?v=1';
+import { demarrer, etat, quand, rafraichir } from './socle/index.js?v=2';
 
 const gsap = window.gsap;
 const ST = window.ScrollTrigger;

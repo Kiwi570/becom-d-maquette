@@ -3,7 +3,7 @@
   "cle": "mecanique-generale",
   "titre": "Mécanique générale",
   "image": "mecanique",
-  "page": "competences",
+  "page": "mecanique-generale",
   "court": "Conception mécanique générale et micro-mécanique, pour développer vos futurs produits innovants.",
   "long": "Spécialiste de la conception mécanique générale et micro-mécanique, BECOM‑D développe vos futurs produits innovants.",
   "alt": "Mécanisme à levier conçu par BECOM‑D, de l’esquisse au rendu 3D"
@@ -21,7 +21,7 @@
   "cle": "mecatronique",
   "titre": "Mécatronique",
   "image": "mecatronique",
-  "page": "competences",
+  "page": "mecatronique",
   "court": "La conception clé en main de vos projets de mécatronique, avec Airbotech.",
   "long": "En synergie avec la société Airbotech, bureau d’études en conception électronique, BECOM‑D vous propose la conception clé en main de vos projets de mécatronique.",
   "alt": "Caisson étanche avec électronique, vu en coupe, de l’esquisse au rendu 3D"
@@ -30,7 +30,7 @@
   "cle": "design-et-communication",
   "titre": "Design et communication",
   "image": "design",
-  "page": "competences",
+  "page": "design-et-communication",
   "court": "Un design en accord avec la fonction, et des rendus photoréalistes pour vos supports.",
   "long": "Un design industriel en accord avec la fonction de vos produits, et des visuels pour les présenter : vues artistiques, rendus photoréalistes, vidéos en images de synthèse.",
   "alt": "Engin à coque alvéolée dessiné par BECOM‑D, de l’esquisse au rendu 3D"
@@ -39,7 +39,7 @@
   "cle": "prototypage-rapide-sla",
   "titre": "Prototypage rapide SLA",
   "image": "prototypage",
-  "page": "competences",
+  "page": "prototypage-rapide-sla",
   "court": "Vos prototypes en impression 3D SLA, sur place, en qualité industrielle.",
   "long": "BECOM‑D vous propose l’impression 3D de bureau, en qualité industrielle, avec une imprimante Form 2 : des pièces de haute qualité à un coût réduit.",
   "alt": "Coque alvéolée, de l’esquisse au rendu 3D"

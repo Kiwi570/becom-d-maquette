@@ -12,9 +12,9 @@ export function detoure(c, nom, { alt = '', classe = '', sizes = '(max-width: 76
 /* Carte de domaine : l'esquisse s'encre en rendu au défilement (effet propre « encrage »).
    complet : texte long, ancre (#cle) pour les liens profonds, lien vers la page du domaine quand elle existe. */
 export function carteDomaine(c, d, { niveau = 'h3', complet = false } = {}) {
-  const lien = d.page === 'robotique-sous-marine'
-    ? c.lien('robotique-sous-marine', { classe: 'domaine-lien', texte: html`${c.t('accueil.domaines.voir')}<span aria-hidden="true"> →</span>` })
-    : complet ? '' : c.lien('competences', { ancre: d.cle, classe: 'domaine-lien', texte: html`${c.t('accueil.domaines.detail')}<span aria-hidden="true"> →</span>` });
+  const lien = d.page && c.pages[d.page] && d.page !== c.page.cle
+    ? c.lien(d.page, { classe: 'domaine-lien', texte: html`${c.t('accueil.domaines.voir')}<span aria-hidden="true"> →</span>` })
+    : c.lien('competences', { ancre: d.cle, classe: 'domaine-lien', texte: html`${c.t('accueil.domaines.detail')}<span aria-hidden="true"> →</span>` });
   const externe = complet && d.cle === 'mecatronique'
     ? html`<a class="domaine-externe" href="http://airbotech.com/" target="_blank" rel="noopener">${c.t('competences.domaines.airbotech')}<span aria-hidden="true"> ↗</span></a>` : '';
   const titre = niveau === 'h2' ? html`<h2>${d.titre}</h2>` : html`<h3>${d.titre}</h3>`;

@@ -1,0 +1,272 @@
+<!doctype html>
+<html lang="fr" data-v="2" data-page="mecanique-generale" data-curseur>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Mécanique générale : BECOM-D, conception mécanique et micro-mécanique</title>
+<meta name="description" content="Conception mécanique générale et micro-mécanique, de l’étude de faisabilité au prototype : les réalisations de BECOM-D, bureau d’études dans l’Hérault.">
+<meta name="robots" content="noindex, nofollow">
+<link rel="canonical" href="https://becom-d-maquette.vercel.app/mecanique-generale">
+<style>:root{--fond:#ECEFEE;--texte:#10263F;--voile-fond:#10263F;--ouverture-fond:#ECEFEE;--menu-fond:#10263F}:root { --entete-h: 72px; --barres-h: 0px; } html { background: var(--fond); color: var(--texte); scrollbar-gutter: stable; } body { margin: 0; background: var(--fond); } html.js:not(.calme):not(.secours):not([data-arrivee="retour"]) [data-anime] { opacity: 0; } html.js:not(.calme):not(.secours):not([data-arrivee="retour"]) [data-anime].vu { opacity: 1; } [data-voile] { position: fixed; inset: 0; z-index: 900; background: var(--voile-fond); transform: translateY(100%); visibility: hidden; pointer-events: none; } html[data-arrivee="voile"]:not(.voile-leve):not(.calme):not(.secours) [data-voile] { transform: none; visibility: visible; } html.calme [data-voile], html.secours [data-voile] { visibility: hidden !important; } .ouverture-panneau { position: fixed; inset: 0; z-index: 850; display: none; place-content: center; justify-items: center; background: var(--ouverture-fond, var(--voile-fond)); color: var(--fond); text-align: center; } html.js[data-arrivee="intro"]:not(.calme):not(.secours):not(.intro-finie) .ouverture-panneau { display: grid; } html.defilement-bloque, html.defilement-bloque body, html.js[data-arrivee="intro"]:not(.calme):not(.secours):not(.intro-finie), html.js[data-arrivee="intro"]:not(.calme):not(.secours):not(.intro-finie) body, html[data-arrivee="voile"]:not(.voile-leve):not(.calme):not(.secours), html[data-arrivee="voile"]:not(.voile-leve):not(.calme):not(.secours) body { overflow: hidden; } html.js[data-arrivee="intro"]:not(.calme):not(.secours):not(.intro-finie) { background-color: var(--ouverture-fond, var(--voile-fond)); } html[data-arrivee="voile"]:not(.voile-leve):not(.calme):not(.secours) { background-color: var(--voile-fond); }</style>
+<script>(function () {
+var d = document.documentElement, ss = null, ls = null;
+try { ss = window.sessionStorage; ls = window.localStorage; } catch (e) {}
+d.classList.add('js');
+var calme = false;
+try { calme = !!ls && ls.getItem('socle:calme') === 'oui'; } catch (e) {}
+if (!calme && window.matchMedia && matchMedia('(prefers-reduced-motion: reduce)').matches) calme = true;
+if (calme) d.classList.add('calme');
+var nav = performance.getEntriesByType ? performance.getEntriesByType('navigation')[0] : null;
+var type = nav ? nav.type : 'navigate';
+var depart = null;
+try { depart = JSON.parse(ss.getItem('socle:depart') || 'null'); ss.removeItem('socle:depart'); } catch (e) {}
+if (depart && !(Date.now() - depart.t < 15000)) depart = null;
+var retourSection = false;
+try { retourSection = !!ss.getItem('socle:calme-retour'); } catch (e) {}
+var mode = type === 'back_forward' || retourSection ? 'retour' : type === 'reload' ? 'intro' : depart ? 'voile' : 'intro';
+d.setAttribute('data-arrivee', mode);
+if (mode === 'voile' && depart.couleur) d.style.setProperty('--voile-fond', depart.couleur);
+if (type === 'reload' && 'scrollRestoration' in history) {
+if (!retourSection) history.scrollRestoration = 'manual';
+}
+try {
+var choisie = ls && ls.getItem('socle:langue');
+var langue = (d.lang || '').slice(0, 2);
+if (choisie && choisie !== langue && type === 'navigate' && !depart) {
+var alt = document.querySelector('link[rel="alternate"][hreflang="' + choisie + '"]');
+if (alt) location.replace(new URL(alt.href).pathname + location.search + location.hash);
+}
+} catch (e) {}
+setTimeout(function () { if (!d.classList.contains('demarre')) d.classList.add('secours'); }, 2000);
+})();</script>
+<link rel="preload" href="/assets/polices/archivo-titres.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/assets/polices/plex-sans.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="/assets/css/socle.css?v=2">
+<link rel="stylesheet" href="/assets/css/site.css?v=2">
+<link rel="modulepreload" href="/assets/js/site.js?v=2">
+<link rel="modulepreload" href="/assets/js/socle/index.js?v=2">
+<script src="/assets/vendor/gsap.min.js" defer></script>
+<script src="/assets/vendor/ScrollTrigger.min.js" defer></script>
+<script src="/assets/vendor/SplitText.min.js" defer></script>
+<script type="module" src="/assets/js/site.js?v=2"></script>
+<meta name="theme-color" content="#ECEFEE">
+<link rel="icon" href="/assets/images/favicon.png" type="image/png">
+<link rel="apple-touch-icon" href="/assets/images/apple-touch-icon.png">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="BECOM-D">
+<meta property="og:locale" content="fr_FR">
+<meta property="og:title" content="Mécanique générale : BECOM-D, conception mécanique et micro-mécanique">
+<meta property="og:description" content="Conception mécanique générale et micro-mécanique, de l’étude de faisabilité au prototype : les réalisations de BECOM-D, bureau d’études dans l’Hérault.">
+<meta property="og:url" content="https://becom-d-maquette.vercel.app/mecanique-generale">
+<meta property="og:image" content="https://becom-d-maquette.vercel.app/assets/partage/mecanique-generale-fr.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="Mécanique générale par BECOM-D : pièces mécaniques usinées">
+<meta name="twitter:card" content="summary_large_image">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"ProfessionalService","name":"BECOM-D","legalName":"Bureau d'études conception mécaniques & design","url":"https://becom-d-maquette.vercel.app/","logo":"https://becom-d-maquette.vercel.app/assets/images/logo-192.png","telephone":"+33678752833","email":"fdsn@becom-d.fr","foundingDate":"2009","address":{"@type":"PostalAddress","streetAddress":"7 bis, route de Saint-Privat","postalCode":"34700","addressLocality":"Saint-Jean-de-la-Blaquière","addressRegion":"Occitanie","addressCountry":"FR"},"description":"Bureau d'études en conception mécanique générale et micro-mécanique : design, mécatronique, robotique sous-marine et prototypage rapide SLA."}</script>
+</head>
+<body id="haut">
+<div data-voile aria-hidden="true">
+  <div class="voile-trame"></div>
+  <div class="voile-contenu">
+    <picture><source type="image/webp" srcset="/assets/images/logo-clair-96.webp 1x, /assets/images/logo-clair-192.webp 2x"><img src="/assets/images/logo-clair-96.png" alt="" width="344" height="96"></picture>
+    <span class="voile-cote"></span>
+    <span class="mono voile-folio">Folio</span>
+    <span data-voile-libelle>Mécanique générale</span>
+  </div>
+</div>
+<div class="ouverture-panneau" data-ouverture aria-hidden="true">
+  <svg class="ouv-cadre" viewBox="0 0 1000 1000" preserveAspectRatio="none" aria-hidden="true">
+    <rect class="ouv-trait" x="14" y="14" width="972" height="972"/>
+    <path class="ouv-trait" d="M14 120 H120 V14 M986 880 H880 V986 M880 14 V120 H986 M120 986 V880 H14"/>
+  </svg>
+  <div class="ouv-centre">
+    <picture><source type="image/webp" srcset="/assets/images/logo-96.webp 1x, /assets/images/logo-192.webp 2x"><img src="/assets/images/logo-96.png" alt="" width="344" height="96"></picture>
+    <svg class="cote ouv-cote" viewBox="0 0 400 24" preserveAspectRatio="none" aria-hidden="true">
+  <line class="cote-attache" x1="1" y1="2" x2="1" y2="22"/><line class="cote-attache" x1="399" y1="2" x2="399" y2="22"/>
+  <line class="cote-ligne" x1="1" y1="12" x2="399" y2="12"/>
+  <path class="cote-fleche" d="M1 12 l9 -4 v8 z"/><path class="cote-fleche" d="M399 12 l-9 -4 v8 z"/>
+</svg>
+    <p class="mono ouv-ligne">Bureau d’études · conception mécanique &amp; design</p>
+  </div>
+  <div class="ouv-cartouche mono">
+    <span>De l’idée au prototype</span><span>Saint-Jean-de-la-Blaquière · Hérault</span>
+  </div>
+</div>
+<a class="evitement" href="#contenu">Aller au contenu</a>
+<header data-entete>
+  <div class="entete-rangee">
+    <a class="entete-logo" href="/" data-libelle="Accueil"><picture><source type="image/webp" srcset="/assets/images/logo-96.webp 1x, /assets/images/logo-192.webp 2x"><img src="/assets/images/logo-96.png" alt="BECOM‑D, accueil" width="344" height="96"></picture></a>
+    <nav data-nav aria-label="Navigation principale">
+      <ul><li><a href="/competences" data-libelle="Compétences">Compétences</a></li><li><a href="/robotique-sous-marine" data-libelle="Robotique sous-marine">Robotique sous-marine</a></li></ul>
+    </nav>
+    <div class="entete-actions">
+      <a class="bouton bouton--entete" href="/contact" data-libelle="Contact">Décrire mon projet</a>
+      <button type="button" data-menu-bouton aria-controls="menu" aria-expanded="false" data-libelle-ouvrir="Menu" data-libelle-fermer="Fermer"><span class="menu-icone" aria-hidden="true"><i></i><i></i></span><span data-libelle-bouton>Menu</span></button>
+    </div>
+  </div>
+</header>
+<div id="menu" data-menu role="dialog" aria-modal="true" aria-label="Menu" data-gouttiere="#10263F">
+  <div class="menu-grille">
+    <ul class="menu-liens"><li style="--i:0"><span class="menu-num mono" aria-hidden="true">01</span><a href="/" class="menu-lien" data-libelle="Accueil">Accueil</a></li><li style="--i:1"><span class="menu-num mono" aria-hidden="true">02</span><a href="/competences" class="menu-lien" data-libelle="Compétences">Compétences</a></li><li style="--i:2"><span class="menu-num mono" aria-hidden="true">03</span><a href="/mecanique-generale" class="menu-lien" data-libelle="Mécanique générale" aria-current="page">Mécanique générale</a></li><li style="--i:3"><span class="menu-num mono" aria-hidden="true">04</span><a href="/robotique-sous-marine" class="menu-lien" data-libelle="Robotique sous-marine">Robotique sous-marine</a></li><li style="--i:4"><span class="menu-num mono" aria-hidden="true">05</span><a href="/mecatronique" class="menu-lien" data-libelle="Mécatronique">Mécatronique</a></li><li style="--i:5"><span class="menu-num mono" aria-hidden="true">06</span><a href="/design-et-communication" class="menu-lien" data-libelle="Design et communication">Design et communication</a></li><li style="--i:6"><span class="menu-num mono" aria-hidden="true">07</span><a href="/prototypage-rapide-sla" class="menu-lien" data-libelle="Prototypage rapide SLA">Prototypage rapide SLA</a></li><li style="--i:7"><span class="menu-num mono" aria-hidden="true">08</span><a href="/contact" class="menu-lien" data-libelle="Contact">Contact</a></li></ul>
+    <div class="menu-contact">
+      <p class="mono menu-titre">Contact</p>
+      <p>Frédéric De San Nicolas<br>7 bis, route de Saint-Privat<br>34700 Saint-Jean-de-la-Blaquière</p>
+      <p><a href="tel:+33678752833">06 78 75 28 33</a><br><a href="tel:+33467443569">04 67 44 35 69</a><br><a href="mailto:fdsn@becom-d.fr">fdsn@becom-d.fr</a></p>
+      <p><a class="bouton bouton--clair" href="/contact" data-libelle="Contact">Décrire mon projet</a></p>
+      <p><button type="button" class="lien" data-calme-bascule data-libelle-reduire="Réduire les animations" data-libelle-retablir="Rétablir les animations" data-libelle-systeme="Animations réduites par le réglage de votre appareil"><span data-libelle-bouton>Réduire les animations</span></button></p>
+    </div>
+  </div>
+</div>
+<main id="contenu" tabindex="-1">
+<section class="page-tete page-tete--image conteneur" id="debut" data-masque-barre>
+  <div>
+    <p class="repere mono">Domaines · Mécanique générale</p>
+    <h1 data-anime="lignes">Mécanique générale</h1>
+    <p class="page-tete-info page-tete-info--moyen" data-info-cle>Plus de 25 ans d’expérience</p>
+    <p data-anime>Spécialiste de la conception mécanique générale et micro-mécanique, BECOM‑D développe vos futurs produits innovants.</p>
+    <p><a href="/contact?domaine=mecanique-generale" class="bouton" data-libelle="Contact" data-action-principale data-survol="magnetique">Décrire mon projet de mécanique</a></p>
+  </div>
+  <figure class="media page-tete-media" data-grok data-fx="parallaxe" data-fx-force="6" style="--cadrage:72% 50%;--cadrage-mobile:50% 75%">
+  <picture><source media="(max-width: 760px) and (orientation: portrait)" srcset="/assets/images/grok/mecanique-ouverture-mobile-640.webp 640w, /assets/images/grok/mecanique-ouverture-mobile-940.webp 940w" sizes="(max-width: 760px) 100vw, 52vw">
+    <img src="/assets/images/grok/mecanique-ouverture-1280.webp" srcset="/assets/images/grok/mecanique-ouverture-640.webp 640w, /assets/images/grok/mecanique-ouverture-1280.webp 1280w, /assets/images/grok/mecanique-ouverture-1672.webp 1672w" sizes="(max-width: 760px) 100vw, 52vw" alt="Engrenage, roulement et arbre usinés posés sur du papier calque" width="1280" height="720" fetchpriority="high" loading="eager" decoding="async">
+  </picture><figcaption class="mention-ia">Illustration générée</figcaption>
+</figure>
+</section>
+<section class="domaine-section" id="conception">
+  <div class="conteneur deux-colonnes">
+    <div>
+      <p class="repere mono">01 · Conception</p>
+      <h2 data-anime="lignes">De l’esquisse au rendu</h2>
+      <p data-anime>De l’étude de faisabilité jusqu’au prototypage, BECOM‑D s’adapte à votre façon de travailler, selon vos besoins : nucléaire, offshore, assainissement, ou votre secteur.</p>
+    </div>
+    <figure class="encrage-planche">
+  <div class="encrage encrage--planche" data-effet="encrage" role="img" aria-label="Mécanisme à levier conçu par BECOM‑D, de l’esquisse au rendu 3D">
+    <img class="encrage-esquisse" src="/assets/images/site/mecanique-esquisse-300.webp" alt="" width="300" height="150" loading="lazy" decoding="async">
+    <img class="encrage-rendu" src="/assets/images/site/mecanique-rendu-300.webp" alt="" width="300" height="150" loading="lazy" decoding="async">
+    <span class="encrage-scan" aria-hidden="true"><i></i></span>
+  </div>
+  <figcaption class="mono">Mécanisme à levier · de l’esquisse au rendu</figcaption>
+</figure>
+  </div>
+</section>
+<section class="domaine-section" id="realisations">
+  <div class="conteneur">
+    <div class="section-tete">
+      <p class="repere mono">02 · Réalisations</p>
+      <h2 data-anime="lignes">Deux projets, du trait à la pièce</h2>
+    </div>
+    <div class="projet-bloc">
+      <h3>Unité Osmose</h3>
+      <p>Unité sur châssis, tuyauteries et pompes : du plan au trait au rendu réaliste. <span class="a-completer">Description du projet à compléter par le client.</span></p>
+      <div class="triptyque" data-anime="cascade"><figure class="triptyque-case">
+    <figure class="media triptyque-media" style="--cadrage:50% 50%">
+  <picture>
+    <img src="/assets/images/site/osmose-trait-963.webp" srcset="/assets/images/site/osmose-trait-640.webp 640w, /assets/images/site/osmose-trait-963.webp 963w" sizes="(max-width: 760px) 92vw, 30vw" alt="Unité Osmose : le trait" width="963" height="800" loading="lazy" decoding="async">
+  </picture>
+</figure>
+    <figcaption class="mono">Unité Osmose · Le trait</figcaption>
+  </figure><figure class="triptyque-case">
+    <figure class="media triptyque-media" style="--cadrage:50% 50%">
+  <picture>
+    <img src="/assets/images/site/osmose-rendu-963.webp" srcset="/assets/images/site/osmose-rendu-640.webp 640w, /assets/images/site/osmose-rendu-963.webp 963w" sizes="(max-width: 760px) 92vw, 30vw" alt="Unité Osmose : le rendu" width="963" height="800" loading="lazy" decoding="async">
+  </picture>
+</figure>
+    <figcaption class="mono">Unité Osmose · Le rendu</figcaption>
+  </figure><figure class="triptyque-case">
+    <figure class="media triptyque-media" style="--cadrage:50% 50%">
+  <picture>
+    <img src="/assets/images/site/osmose-rendu-realiste-963.webp" srcset="/assets/images/site/osmose-rendu-realiste-640.webp 640w, /assets/images/site/osmose-rendu-realiste-963.webp 963w" sizes="(max-width: 760px) 92vw, 30vw" alt="Unité Osmose : le rendu réaliste" width="963" height="800" loading="lazy" decoding="async">
+  </picture>
+</figure>
+    <figcaption class="mono">Unité Osmose · Le rendu réaliste</figcaption>
+  </figure></div>
+    </div>
+    <div class="projet-bloc">
+      <h3>Caisson Oceanview VR</h3>
+      <p>Caisson cylindrique : le plan, la simulation des déformations, puis la pièce usinée. <span class="a-completer">Description du projet à compléter par le client.</span></p>
+      <div class="triptyque" data-anime="cascade"><figure class="triptyque-case">
+    <figure class="media triptyque-media" style="--cadrage:50% 50%">
+  <picture>
+    <img src="/assets/images/site/oceanview-trait-1257.webp" srcset="/assets/images/site/oceanview-trait-640.webp 640w, /assets/images/site/oceanview-trait-1257.webp 1257w" sizes="(max-width: 760px) 92vw, 30vw" alt="Caisson Oceanview VR : le trait" width="1257" height="933" loading="lazy" decoding="async">
+  </picture>
+</figure>
+    <figcaption class="mono">Oceanview VR · Le trait</figcaption>
+  </figure><figure class="triptyque-case">
+    <figure class="media triptyque-media" style="--cadrage:50% 50%">
+  <picture>
+    <img src="/assets/images/site/oceanview-simulation-1257.webp" srcset="/assets/images/site/oceanview-simulation-640.webp 640w, /assets/images/site/oceanview-simulation-1257.webp 1257w" sizes="(max-width: 760px) 92vw, 30vw" alt="Caisson Oceanview VR : la simulation" width="1257" height="933" loading="lazy" decoding="async">
+  </picture>
+</figure>
+    <figcaption class="mono">Oceanview VR · La simulation</figcaption>
+  </figure><figure class="triptyque-case">
+    <figure class="media triptyque-media" style="--cadrage:50% 50%">
+  <picture>
+    <img src="/assets/images/site/oceanview-piece-912.webp" srcset="/assets/images/site/oceanview-piece-640.webp 640w, /assets/images/site/oceanview-piece-912.webp 912w" sizes="(max-width: 760px) 92vw, 30vw" alt="Caisson Oceanview VR : la pièce usinée" width="912" height="933" loading="lazy" decoding="async">
+  </picture>
+</figure>
+    <figcaption class="mono">Oceanview VR · La pièce usinée</figcaption>
+  </figure></div>
+    </div>
+  </div>
+</section>
+<section class="domaine-section" id="outils">
+  <div class="conteneur deux-colonnes">
+    <figure class="media fin-media savoir-media--planche" data-fx="zoom" data-fx-force="10" style="--cadrage:50% 50%">
+  <picture>
+    <img src="/assets/images/site/simulation-piece-532.webp" srcset="/assets/images/site/simulation-piece-532.webp 532w" sizes="(max-width: 760px) 92vw, 532px" alt="Simulation des contraintes sur une bague usinée, en deux vues" width="532" height="200" loading="lazy" decoding="async">
+  </picture>
+</figure>
+    <div>
+      <p class="repere mono">03 · Outils</p>
+      <h2 data-anime="lignes">Simulation et validation</h2>
+      <p data-anime>Sous SolidWorks Premium : outils spécialisés pour la tôlerie, les assemblages soudés, les surfaces, les moules, les outils et les matrices, et outils de simulation et de validation des conceptions.</p>
+    </div>
+  </div>
+</section>
+<section class="fin" id="fin">
+  <div class="conteneur fin-grille">
+    <div>
+      <h2 data-anime="lignes">Une pièce, un mécanisme à concevoir ?</h2>
+      <p data-anime>Une idée, un schéma, un cahier des charges : décrivez votre projet.</p>
+      <p><a href="/contact?domaine=mecanique-generale" class="bouton" data-libelle="Contact" data-survol="magnetique">Décrire mon projet de mécanique</a></p>
+    </div>
+    <figure class="media fin-media savoir-media--planche" data-anime="rideau" style="--cadrage:50% 50%">
+  <picture>
+    <img src="/assets/images/site/chassis-rendu-322.webp" srcset="/assets/images/site/chassis-rendu-322.webp 322w" sizes="(max-width: 760px) 92vw, 40vw" alt="Rendu 3D d’une unité de filtration sur châssis (unité Osmose)" width="322" height="250" loading="lazy" decoding="async">
+  </picture>
+</figure>
+  </div>
+</section>
+</main>
+<footer class="pied" id="pied">
+  <div class="conteneur pied-grille">
+    <div class="pied-marque">
+      <picture><source type="image/webp" srcset="/assets/images/logo-clair-96.webp 1x, /assets/images/logo-clair-192.webp 2x"><img src="/assets/images/logo-clair-96.png" alt="BECOM-D" width="344" height="96"></picture>
+      <p>Bureau d’études conception mécanique &amp; design, proche de Montpellier et de Béziers.</p>
+    </div>
+    <div>
+      <p class="mono pied-titre">Contact</p>
+      <p>Frédéric De San Nicolas<br>7 bis, route de Saint-Privat<br>34700 Saint-Jean-de-la-Blaquière</p>
+      <p>Portable&nbsp;: <a href="tel:+33678752833">06 78 75 28 33</a><br>Fixe&nbsp;: <a href="tel:+33467443569">04 67 44 35 69</a><br><a href="mailto:fdsn@becom-d.fr">fdsn@becom-d.fr</a></p>
+    </div>
+    <nav aria-label="Plan du site">
+      <p class="mono pied-titre">Plan du site</p>
+      <ul><li><a href="/" data-libelle="Accueil">Accueil</a></li><li><a href="/competences" data-libelle="Compétences">Compétences</a></li><li><a href="/mecanique-generale" data-libelle="Mécanique générale" aria-current="page">Mécanique générale</a></li><li><a href="/robotique-sous-marine" data-libelle="Robotique sous-marine">Robotique sous-marine</a></li><li><a href="/mecatronique" data-libelle="Mécatronique">Mécatronique</a></li><li><a href="/design-et-communication" data-libelle="Design et communication">Design et communication</a></li><li><a href="/prototypage-rapide-sla" data-libelle="Prototypage rapide SLA">Prototypage rapide SLA</a></li><li><a href="/contact" data-libelle="Contact">Contact</a></li><li><a href="/mentions-legales" data-libelle="Mentions légales">Mentions légales</a></li></ul>
+    </nav>
+    <div>
+      <p class="mono pied-titre">Confort</p>
+      <ul>
+        <li><button type="button" class="lien" data-calme-bascule data-libelle-reduire="Réduire les animations" data-libelle-retablir="Rétablir les animations" data-libelle-systeme="Animations réduites par le réglage de votre appareil"><span data-libelle-bouton>Réduire les animations</span></button></li>
+        <li><a href="#haut" data-sans-transition>Retour en haut</a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="conteneur pied-bas"><p>Maquette : les informations marquées « à compléter » seront fournies par le client.</p><p>© BECOM-D</p></div>
+</footer>
+<div data-barre-fixe>
+  <a class="bouton bouton--contour" href="tel:+33678752833">Appeler</a>
+  <a class="bouton" href="/contact" data-libelle="Contact">Décrire mon projet</a>
+</div>
+</body>
+</html>

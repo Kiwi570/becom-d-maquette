@@ -1,4 +1,4 @@
-# BECOM-D · maquette v1
+# BECOM-D · maquette v2
 
 Maquette du futur site de BECOM-D, bureau d'études conception mécanique & design (Saint-Jean-de-la-Blaquière, Hérault).
 Direction artistique « Calque & cote » : le plan technique en version haut de gamme (papier calque et trame millimétrée,
@@ -16,10 +16,7 @@ Adresse prévue : https://becom-d-maquette.vercel.app (site statique, sans étap
 | Contact | `source/pages/contact.mjs` | contact (demande en 4 étapes) |
 | Mentions légales et confidentialité | `source/pages/mentions-legales.mjs` | légal |
 | 404 « Cote hors tolérance » | `source/pages/404.mjs` | 404 |
-
-À venir en v2 (même modèle que Robotique sous-marine) : Mécanique générale, Mécatronique, Design et communication,
-Prototypage rapide SLA. Leurs images d'ouverture Grok sont déjà converties (`assets/images/grok/*-ouverture-*`).
-En attendant, les liens « En savoir plus » des domaines mènent aux ancres de la page Compétences.
+| Mécanique générale, Mécatronique, Design et communication, Prototypage rapide SLA | `source/pages/<page>.mjs` | page domaine (`source/gabarits/domaine.mjs`) |
 
 ## Effets propres (plan d'animation)
 

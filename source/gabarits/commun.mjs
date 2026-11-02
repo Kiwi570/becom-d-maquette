@@ -65,7 +65,7 @@ function entete(c) {
   <div class="entete-rangee">
     <a class="entete-logo" href="${c.url('accueil')}" data-libelle="${c.libelle('accueil')}"${c.page.cle === 'accueil' ? brut(' aria-current="page"') : ''}>${logo(c, false, c.s('commun.logoAlt'))}</a>
     <nav data-nav aria-label="${c.s('commun.navigation')}">
-      <ul>${navigation(c).filter((k) => k !== 'accueil' && k !== a.page).map((k) => html`<li>${c.lien(k)}</li>`)}</ul>
+      <ul>${(c.site.enteteNavigation || navigation(c)).filter((k) => k !== 'accueil' && k !== a.page && c.pages[k]).map((k) => html`<li>${c.lien(k)}</li>`)}</ul>
     </nav>
     <div class="entete-actions">
       ${html`<a class="bouton bouton--entete" href="${c.url(a.page, a.ancre || '')}" data-libelle="${c.libelle(a.page)}"${c.page.cle === a.page ? brut(' aria-current="page"') : ''}>${c.t('commun.actionEntete')}</a>`}
@@ -75,7 +75,7 @@ function entete(c) {
 </header>
 <div id="menu" data-menu role="dialog" aria-modal="true" aria-label="${c.s('commun.menu')}" data-gouttiere="${c.site.couleurs.menu}">
   <div class="menu-grille">
-    <ul class="menu-liens">${navigation(c).map((k, i) => html`<li style="--i:${i}"><span class="menu-num mono" aria-hidden="true">0${i + 1}</span>${c.lien(k, { classe: 'menu-lien' })}</li>`)}</ul>
+    <ul class="menu-liens">${navigation(c).map((k, i) => html`<li style="--i:${i}"><span class="menu-num mono" aria-hidden="true">${String(i + 1).padStart(2, '0')}</span>${c.lien(k, { classe: 'menu-lien' })}</li>`)}</ul>
     <div class="menu-contact">
       <p class="mono menu-titre">${c.t('commun.piedContact')}</p>
       <p>${c.site.contact.interlocuteur}<br>${c.site.contact.rue}<br>${c.site.contact.ville}</p>
