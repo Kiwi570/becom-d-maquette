@@ -1,0 +1,20 @@
+{
+  "@context": "https://schema.org",
+  "@type": "ProfessionalService",
+  "name": "BECOM-D",
+  "legalName": "Bureau d'études conception mécaniques & design",
+  "url": "https://becom-d-maquette.vercel.app/",
+  "logo": "https://becom-d-maquette.vercel.app/assets/images/logo-192.png",
+  "telephone": "+33678752833",
+  "email": "fdsn@becom-d.fr",
+  "foundingDate": "2009",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "7 bis, route de Saint-Privat",
+    "postalCode": "34700",
+    "addressLocality": "Saint-Jean-de-la-Blaquière",
+    "addressRegion": "Occitanie",
+    "addressCountry": "FR"
+  },
+  "description": "Bureau d'études en conception mécanique générale et micro-mécanique : design, mécatronique, robotique sous-marine et prototypage rapide SLA."
+}

@@ -1,0 +1,254 @@
+<!doctype html>
+<html lang="fr" data-v="1" data-page="contact" data-curseur>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Décrire votre projet : contact BECOM-D</title>
+<meta name="description" content="Une idée, un schéma, un cahier des charges, des plans : décrivez votre projet à BECOM-D, à Saint-Jean-de-la-Blaquière (Hérault).">
+<meta name="robots" content="noindex, nofollow">
+<link rel="canonical" href="https://becom-d-maquette.vercel.app/contact">
+<style>:root{--fond:#ECEFEE;--texte:#10263F;--voile-fond:#10263F;--ouverture-fond:#ECEFEE;--menu-fond:#10263F}:root { --entete-h: 72px; --barres-h: 0px; } html { background: var(--fond); color: var(--texte); scrollbar-gutter: stable; } body { margin: 0; background: var(--fond); } html.js:not(.calme):not(.secours):not([data-arrivee="retour"]) [data-anime] { opacity: 0; } html.js:not(.calme):not(.secours):not([data-arrivee="retour"]) [data-anime].vu { opacity: 1; } [data-voile] { position: fixed; inset: 0; z-index: 900; background: var(--voile-fond); transform: translateY(100%); visibility: hidden; pointer-events: none; } html[data-arrivee="voile"]:not(.voile-leve):not(.calme):not(.secours) [data-voile] { transform: none; visibility: visible; } html.calme [data-voile], html.secours [data-voile] { visibility: hidden !important; } .ouverture-panneau { position: fixed; inset: 0; z-index: 850; display: none; place-content: center; justify-items: center; background: var(--ouverture-fond, var(--voile-fond)); color: var(--fond); text-align: center; } html.js[data-arrivee="intro"]:not(.calme):not(.secours):not(.intro-finie) .ouverture-panneau { display: grid; } html.defilement-bloque, html.defilement-bloque body, html.js[data-arrivee="intro"]:not(.calme):not(.secours):not(.intro-finie), html.js[data-arrivee="intro"]:not(.calme):not(.secours):not(.intro-finie) body, html[data-arrivee="voile"]:not(.voile-leve):not(.calme):not(.secours), html[data-arrivee="voile"]:not(.voile-leve):not(.calme):not(.secours) body { overflow: hidden; } html.js[data-arrivee="intro"]:not(.calme):not(.secours):not(.intro-finie) { background-color: var(--ouverture-fond, var(--voile-fond)); } html[data-arrivee="voile"]:not(.voile-leve):not(.calme):not(.secours) { background-color: var(--voile-fond); }</style>
+<script>(function () {
+var d = document.documentElement, ss = null, ls = null;
+try { ss = window.sessionStorage; ls = window.localStorage; } catch (e) {}
+d.classList.add('js');
+var calme = false;
+try { calme = !!ls && ls.getItem('socle:calme') === 'oui'; } catch (e) {}
+if (!calme && window.matchMedia && matchMedia('(prefers-reduced-motion: reduce)').matches) calme = true;
+if (calme) d.classList.add('calme');
+var nav = performance.getEntriesByType ? performance.getEntriesByType('navigation')[0] : null;
+var type = nav ? nav.type : 'navigate';
+var depart = null;
+try { depart = JSON.parse(ss.getItem('socle:depart') || 'null'); ss.removeItem('socle:depart'); } catch (e) {}
+if (depart && !(Date.now() - depart.t < 15000)) depart = null;
+var retourSection = false;
+try { retourSection = !!ss.getItem('socle:calme-retour'); } catch (e) {}
+var mode = type === 'back_forward' || retourSection ? 'retour' : type === 'reload' ? 'intro' : depart ? 'voile' : 'intro';
+d.setAttribute('data-arrivee', mode);
+if (mode === 'voile' && depart.couleur) d.style.setProperty('--voile-fond', depart.couleur);
+if (type === 'reload' && 'scrollRestoration' in history) {
+if (!retourSection) history.scrollRestoration = 'manual';
+}
+try {
+var choisie = ls && ls.getItem('socle:langue');
+var langue = (d.lang || '').slice(0, 2);
+if (choisie && choisie !== langue && type === 'navigate' && !depart) {
+var alt = document.querySelector('link[rel="alternate"][hreflang="' + choisie + '"]');
+if (alt) location.replace(new URL(alt.href).pathname + location.search + location.hash);
+}
+} catch (e) {}
+setTimeout(function () { if (!d.classList.contains('demarre')) d.classList.add('secours'); }, 2000);
+})();</script>
+<link rel="preload" href="/assets/polices/archivo-titres.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/assets/polices/plex-sans.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="/assets/css/socle.css?v=1">
+<link rel="stylesheet" href="/assets/css/site.css?v=1">
+<link rel="modulepreload" href="/assets/js/site.js?v=1">
+<link rel="modulepreload" href="/assets/js/socle/index.js?v=1">
+<script src="/assets/vendor/gsap.min.js" defer></script>
+<script src="/assets/vendor/ScrollTrigger.min.js" defer></script>
+<script src="/assets/vendor/SplitText.min.js" defer></script>
+<script type="module" src="/assets/js/site.js?v=1"></script>
+<meta name="theme-color" content="#ECEFEE">
+<link rel="icon" href="/assets/images/favicon.png" type="image/png">
+<link rel="apple-touch-icon" href="/assets/images/apple-touch-icon.png">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="BECOM-D">
+<meta property="og:locale" content="fr_FR">
+<meta property="og:title" content="Décrire votre projet : contact BECOM-D">
+<meta property="og:description" content="Une idée, un schéma, un cahier des charges, des plans : décrivez votre projet à BECOM-D, à Saint-Jean-de-la-Blaquière (Hérault).">
+<meta property="og:url" content="https://becom-d-maquette.vercel.app/contact">
+<meta property="og:image" content="https://becom-d-maquette.vercel.app/assets/partage/contact-fr.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="Contact BECOM-D : table à dessin, calque et compas">
+<meta name="twitter:card" content="summary_large_image">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"ProfessionalService","name":"BECOM-D","legalName":"Bureau d'études conception mécaniques & design","url":"https://becom-d-maquette.vercel.app/","logo":"https://becom-d-maquette.vercel.app/assets/images/logo-192.png","telephone":"+33678752833","email":"fdsn@becom-d.fr","foundingDate":"2009","address":{"@type":"PostalAddress","streetAddress":"7 bis, route de Saint-Privat","postalCode":"34700","addressLocality":"Saint-Jean-de-la-Blaquière","addressRegion":"Occitanie","addressCountry":"FR"},"description":"Bureau d'études en conception mécanique générale et micro-mécanique : design, mécatronique, robotique sous-marine et prototypage rapide SLA."}</script>
+</head>
+<body id="haut">
+<div data-voile aria-hidden="true">
+  <div class="voile-trame"></div>
+  <div class="voile-contenu">
+    <picture><source type="image/webp" srcset="/assets/images/logo-clair-96.webp 1x, /assets/images/logo-clair-192.webp 2x"><img src="/assets/images/logo-clair-96.png" alt="" width="344" height="96"></picture>
+    <span class="voile-cote"></span>
+    <span class="mono voile-folio">Folio</span>
+    <span data-voile-libelle>Contact</span>
+  </div>
+</div>
+<div class="ouverture-panneau" data-ouverture aria-hidden="true">
+  <svg class="ouv-cadre" viewBox="0 0 1000 1000" preserveAspectRatio="none" aria-hidden="true">
+    <rect class="ouv-trait" x="14" y="14" width="972" height="972"/>
+    <path class="ouv-trait" d="M14 120 H120 V14 M986 880 H880 V986 M880 14 V120 H986 M120 986 V880 H14"/>
+  </svg>
+  <div class="ouv-centre">
+    <picture><source type="image/webp" srcset="/assets/images/logo-96.webp 1x, /assets/images/logo-192.webp 2x"><img src="/assets/images/logo-96.png" alt="" width="344" height="96"></picture>
+    <svg class="cote ouv-cote" viewBox="0 0 400 24" preserveAspectRatio="none" aria-hidden="true">
+  <line class="cote-attache" x1="1" y1="2" x2="1" y2="22"/><line class="cote-attache" x1="399" y1="2" x2="399" y2="22"/>
+  <line class="cote-ligne" x1="1" y1="12" x2="399" y2="12"/>
+  <path class="cote-fleche" d="M1 12 l9 -4 v8 z"/><path class="cote-fleche" d="M399 12 l-9 -4 v8 z"/>
+</svg>
+    <p class="mono ouv-ligne">Bureau d’études · conception mécanique &amp; design</p>
+  </div>
+  <div class="ouv-cartouche mono">
+    <span>De l’idée au prototype</span><span>Saint-Jean-de-la-Blaquière · Hérault</span>
+  </div>
+</div>
+<a class="evitement" href="#contenu">Aller au contenu</a>
+<header data-entete>
+  <div class="entete-rangee">
+    <a class="entete-logo" href="/" data-libelle="Accueil"><picture><source type="image/webp" srcset="/assets/images/logo-96.webp 1x, /assets/images/logo-192.webp 2x"><img src="/assets/images/logo-96.png" alt="BECOM‑D, accueil" width="344" height="96"></picture></a>
+    <nav data-nav aria-label="Navigation principale">
+      <ul><li><a href="/competences" data-libelle="Compétences">Compétences</a></li><li><a href="/robotique-sous-marine" data-libelle="Robotique sous-marine">Robotique sous-marine</a></li></ul>
+    </nav>
+    <div class="entete-actions">
+      <a class="bouton bouton--entete" href="/contact" data-libelle="Contact" aria-current="page">Décrire mon projet</a>
+      <button type="button" data-menu-bouton aria-controls="menu" aria-expanded="false" data-libelle-ouvrir="Menu" data-libelle-fermer="Fermer"><span class="menu-icone" aria-hidden="true"><i></i><i></i></span><span data-libelle-bouton>Menu</span></button>
+    </div>
+  </div>
+</header>
+<div id="menu" data-menu role="dialog" aria-modal="true" aria-label="Menu" data-gouttiere="#10263F">
+  <div class="menu-grille">
+    <ul class="menu-liens"><li style="--i:0"><span class="menu-num mono" aria-hidden="true">01</span><a href="/" class="menu-lien" data-libelle="Accueil">Accueil</a></li><li style="--i:1"><span class="menu-num mono" aria-hidden="true">02</span><a href="/competences" class="menu-lien" data-libelle="Compétences">Compétences</a></li><li style="--i:2"><span class="menu-num mono" aria-hidden="true">03</span><a href="/robotique-sous-marine" class="menu-lien" data-libelle="Robotique sous-marine">Robotique sous-marine</a></li><li style="--i:3"><span class="menu-num mono" aria-hidden="true">04</span><a href="/contact" class="menu-lien" data-libelle="Contact" aria-current="page">Contact</a></li></ul>
+    <div class="menu-contact">
+      <p class="mono menu-titre">Contact</p>
+      <p>Frédéric De San Nicolas<br>7 bis, route de Saint-Privat<br>34700 Saint-Jean-de-la-Blaquière</p>
+      <p><a href="tel:+33678752833">06 78 75 28 33</a><br><a href="tel:+33467443569">04 67 44 35 69</a><br><a href="mailto:fdsn@becom-d.fr">fdsn@becom-d.fr</a></p>
+      <p><a class="bouton bouton--clair" href="/contact" data-libelle="Contact">Décrire mon projet</a></p>
+      <p><button type="button" class="lien" data-calme-bascule data-libelle-reduire="Réduire les animations" data-libelle-retablir="Rétablir les animations" data-libelle-systeme="Animations réduites par le réglage de votre appareil"><span data-libelle-bouton>Réduire les animations</span></button></p>
+    </div>
+  </div>
+</div>
+<main id="contenu" tabindex="-1">
+<section class="page-tete page-tete--image conteneur" id="debut" data-masque-barre>
+  <div>
+    <p class="repere mono">Contact</p>
+    <h1 data-anime="lignes">Décrire votre projet</h1>
+    <p data-anime>Une idée, un schéma, un cahier des charges, des plans : dites où en est votre projet. Vous pouvez aussi appeler directement.</p>
+    <p class="page-tete-actions"><a class="bouton" href="#formulaire" data-action-principale data-sans-transition>Commencer ma demande</a><a class="hero-info mono" href="tel:+33678752833" data-info-cle aria-label="Appeler BECOM‑D au 06 78 75 28 33">06 78 75 28 33</a></p>
+  </div>
+  <figure class="media page-tete-media" data-grok style="--cadrage:72% 50%;--cadrage-mobile:50% 70%">
+  <picture><source media="(max-width: 760px) and (orientation: portrait)" srcset="/assets/images/grok/contact-ouverture-mobile-640.webp 640w, /assets/images/grok/contact-ouverture-mobile-940.webp 940w" sizes="(max-width: 760px) 100vw, 48vw">
+    <img src="/assets/images/grok/contact-ouverture-1280.webp" srcset="/assets/images/grok/contact-ouverture-640.webp 640w, /assets/images/grok/contact-ouverture-1280.webp 1280w, /assets/images/grok/contact-ouverture-1672.webp 1672w" sizes="(max-width: 760px) 100vw, 48vw" alt="Table à dessin : feuilles de calque, porte-mine et compas" width="1280" height="720" fetchpriority="high" loading="eager" decoding="async">
+  </picture><figcaption class="mention-ia">Illustration générée</figcaption>
+</figure>
+</section>
+<section class="demande" id="formulaire" data-masque-barre>
+  <div class="conteneur demande-grille">
+    <div class="demande-form">
+      <h2 data-anime="lignes">Votre demande en quatre étapes</h2>
+      <p class="mono demande-deroule" id="deroule">Besoin, domaine, stade du projet, puis vos coordonnées. Rien n’est envoyé : demande simulée.</p>
+      <ol class="demande-etapes mono" aria-hidden="true"><li data-repere-etape="1"><b>01</b> Besoin</li><li data-repere-etape="2"><b>02</b> Domaine</li><li data-repere-etape="3"><b>03</b> Stade</li><li data-repere-etape="4"><b>04</b> Coordonnées</li></ol>
+      <form data-formulaire data-etapes class="formulaire" action="#" novalidate aria-describedby="deroule" data-erreur-choix="Choisissez une option pour continuer.">
+        <div class="etapes-cadre">
+          <fieldset class="etape-form" data-etape="1" aria-labelledby="etape-titre-1">
+    <legend class="visuellement-cache">Votre besoin</legend>
+    <p class="mono etape-num" id="etape-titre-1" tabindex="-1">Étape 1 sur 4 · Votre besoin</p>
+    <div class="choix-grille"><label class="choix"><input type="radio" name="besoin" value="b1" id="besoin-0"><span>Concevoir et fabriquer votre produit</span></label><label class="choix"><input type="radio" name="besoin" value="b2" id="besoin-1"><span>Externaliser vos études</span></label><label class="choix"><input type="radio" name="besoin" value="b3" id="besoin-2"><span>Renforcer ponctuellement vos équipes BE méca</span></label><label class="choix"><input type="radio" name="besoin" value="b4" id="besoin-3"><span>Gagner en flexibilité et en réactivité</span></label></div>
+    <p class="champ-erreur etape-erreur" aria-live="polite"></p>
+  </fieldset>
+          <fieldset class="etape-form" data-etape="2" aria-labelledby="etape-titre-2">
+    <legend class="visuellement-cache">Le domaine</legend>
+    <p class="mono etape-num" id="etape-titre-2" tabindex="-1">Étape 2 sur 4 · Le domaine</p>
+    <div class="choix-grille"><label class="choix"><input type="radio" name="domaine" value="mecanique-generale" id="domaine-0"><span>Mécanique générale</span></label><label class="choix"><input type="radio" name="domaine" value="robotique-sous-marine" id="domaine-1"><span>Robotique sous-marine</span></label><label class="choix"><input type="radio" name="domaine" value="mecatronique" id="domaine-2"><span>Mécatronique</span></label><label class="choix"><input type="radio" name="domaine" value="design-et-communication" id="domaine-3"><span>Design et communication</span></label><label class="choix"><input type="radio" name="domaine" value="prototypage-rapide-sla" id="domaine-4"><span>Prototypage rapide SLA</span></label><label class="choix"><input type="radio" name="domaine" value="autre" id="domaine-9"><span>Autre domaine</span></label></div>
+    <p class="champ-erreur etape-erreur" aria-live="polite"></p>
+  </fieldset>
+          <fieldset class="etape-form" data-etape="3" aria-labelledby="etape-titre-3">
+    <legend class="visuellement-cache">Où en est votre projet ?</legend>
+    <p class="mono etape-num" id="etape-titre-3" tabindex="-1">Étape 3 sur 4 · Où en est votre projet ?</p>
+    <div class="choix-grille"><label class="choix"><input type="radio" name="stade" value="st1" id="stade-0"><span>Une idée</span></label><label class="choix"><input type="radio" name="stade" value="st2" id="stade-1"><span>Un schéma ou un croquis</span></label><label class="choix"><input type="radio" name="stade" value="st3" id="stade-2"><span>Un cahier des charges</span></label><label class="choix"><input type="radio" name="stade" value="st4" id="stade-3"><span>Des plans ou un modèle 3D</span></label><label class="choix"><input type="radio" name="stade" value="st5" id="stade-4"><span>Un prototype à reprendre</span></label></div>
+            <div class="champ"><label for="f-delai">Délai souhaité</label><select id="f-delai" name="delai"><option value="d0">Pas encore défini</option><option value="d1">Dès que possible</option><option value="d2">Dans le mois</option><option value="d3">Dans le trimestre</option></select></div>
+    <p class="champ-erreur etape-erreur" aria-live="polite"></p>
+  </fieldset>
+          <fieldset class="etape-form" data-etape="4" aria-labelledby="etape-titre-4">
+    <legend class="visuellement-cache">Vos coordonnées</legend>
+    <p class="mono etape-num" id="etape-titre-4" tabindex="-1">Étape 4 sur 4 · Vos coordonnées</p>
+            <div class="champs-2">
+              <div class="champ"><label for="f-nom">Nom</label><input id="f-nom" name="nom" autocomplete="name" required></div>
+              <div class="champ"><label for="f-societe">Société (facultatif)</label><input id="f-societe" name="societe" autocomplete="organization"></div>
+              <div class="champ"><label for="f-email">E-mail</label><input id="f-email" name="email" type="email" autocomplete="email" required></div>
+              <div class="champ"><label for="f-tel">Téléphone (facultatif)</label><input id="f-tel" name="tel" type="tel" autocomplete="tel"></div>
+            </div>
+            <div class="champ"><label for="f-message">Votre projet en quelques lignes</label><textarea id="f-message" name="message" rows="4" required></textarea></div>
+            <div class="champ"><label for="f-fichiers">Pièces jointes : croquis, plans, photos (simulé)</label><input id="f-fichiers" name="fichiers" type="file" multiple></div>
+            <div class="champ champ--case"><input id="f-accord" name="accord" type="checkbox" value="oui" required><label for="f-accord">J’accepte que mes données servent seulement à répondre à ma demande.</label></div>
+            <p class="mention-donnees">Vos données servent seulement à répondre à votre demande. <a href="/mentions-legales#confidentialite">Politique de confidentialité</a> (à compléter).</p>
+            <button type="submit" class="bouton">Envoyer la demande (simulé)</button>
+            <p data-message-envoi role="status" tabindex="-1" hidden data-texte="Demande simulée : rien n’a été envoyé. Sur le site final, elle partira vers BECOM‑D."></p>
+    <p class="champ-erreur etape-erreur" aria-live="polite"></p>
+  </fieldset>
+        </div>
+        <div class="etapes-nav">
+          <button type="button" class="bouton bouton--contour" data-etape-precedente>Étape précédente</button>
+          <button type="button" class="bouton" data-etape-suivante>Étape suivante</button>
+        </div>
+      </form>
+    </div>
+    <aside class="demande-recap" aria-label="Récapitulatif de votre demande" data-visuel>
+      <p class="mono repere">Votre cartouche</p>
+      <dl class="cartouche " data-effet="cartouche" data-recapitulatif>
+  <div class="cartouche-case cartouche-case--large" style="--i:0"><dt class="mono">Votre besoin</dt><dd><span data-recap="besoin" data-vide="à renseigner">à renseigner</span></dd></div><div class="cartouche-case" style="--i:1"><dt class="mono">Le domaine</dt><dd><span data-recap="domaine" data-vide="à renseigner">à renseigner</span></dd></div><div class="cartouche-case" style="--i:2"><dt class="mono">Délai souhaité</dt><dd><span data-recap="delai" data-vide="à renseigner">Pas encore défini</span></dd></div><div class="cartouche-case cartouche-case--large" style="--i:3"><dt class="mono">Où en est votre projet ?</dt><dd><span data-recap="stade" data-vide="à renseigner">à renseigner</span></dd></div><div class="cartouche-case" style="--i:4"><dt class="mono">Vos coordonnées</dt><dd><span data-recap="nom" data-vide="à renseigner">à renseigner</span></dd></div><div class="cartouche-case" style="--i:5"><dt class="mono">Pièces jointes</dt><dd><span data-recap="fichiers" data-vide="0">0</span></dd></div><div class="cartouche-case cartouche-case--large" style="--i:6"><dt class="mono">Bureau d’études</dt><dd>BECOM-D · Frédéric De San Nicolas</dd></div>
+</dl>
+    </aside>
+  </div>
+</section>
+<section class="coordonnees" id="coordonnees">
+  <div class="conteneur coordonnees-grille">
+    <div>
+      <p class="repere mono">Coordonnées</p>
+      <h2 data-anime="lignes">BECOM‑D, à Saint‑Jean‑de‑la‑Blaquière</h2>
+      <p data-anime>Entre Montpellier et Béziers, dans l’Hérault.</p>
+      <dl class="cartouche " data-effet="cartouche">
+  <div class="cartouche-case cartouche-case--large" style="--i:0"><dt class="mono">Interlocuteur</dt><dd>Frédéric De San Nicolas</dd></div><div class="cartouche-case cartouche-case--large" style="--i:1"><dt class="mono">Adresse</dt><dd>7 bis, route de Saint-Privat<br>34700 Saint-Jean-de-la-Blaquière</dd></div><div class="cartouche-case" style="--i:2"><dt class="mono">Portable</dt><dd><a href="tel:+33678752833">06 78 75 28 33</a></dd></div><div class="cartouche-case" style="--i:3"><dt class="mono">Fixe</dt><dd><a href="tel:+33467443569">04 67 44 35 69</a></dd></div><div class="cartouche-case cartouche-case--large" style="--i:4"><dt class="mono">E-mail</dt><dd><a href="mailto:fdsn@becom-d.fr">fdsn@becom-d.fr</a></dd></div>
+</dl>
+    </div>
+    <figure class="plan-situation" data-visuel>
+  <svg viewBox="0 0 640 420" role="img" aria-label="Plan de situation de Saint-Jean-de-la-Blaquière, entre Montpellier et Béziers" data-fx="trace">
+    <defs><pattern id="trame-plan" width="20" height="20" patternUnits="userSpaceOnUse"><path d="M20 0H0V20" fill="none" class="plan-trame"/></pattern></defs>
+    <rect x="0" y="0" width="640" height="420" fill="url(#trame-plan)"/>
+    <line class="plan-liaison" data-fx-trait x1="217" y1="85" x2="490" y2="172"/><line class="plan-liaison" data-fx-trait x1="217" y1="85" x2="93" y2="393"/>
+    <circle class="plan-point plan-point--principal" cx="217" cy="85" r="8"/><circle class="plan-point" cx="156" cy="72" r="5"/><circle class="plan-point" cx="223" cy="159" r="5"/><circle class="plan-point" cx="490" cy="172" r="5"/><circle class="plan-point" cx="93" cy="393" r="5"/>
+    <circle class="plan-onde" data-fx-trait cx="217" cy="85" r="22"/>
+    <line class="plan-echelle" data-fx-trait x1="486" y1="396" x2="560" y2="396"/>
+    <path class="plan-echelle" d="M486 390 V402 M560 390 V402"/>
+    <path class="plan-nord" data-fx-trait d="M604 64 L614 34 L624 64 L614 56 Z"/>
+  </svg>
+  <div class="plan-libelles" aria-hidden="true">
+    <span class="plan-libelle plan-libelle--principal" style="left:33.9%;top:20.2%">Saint-Jean-de-la-Blaquière</span><span class="plan-libelle plan-libelle--gauche" style="left:24.4%;top:17.1%">Lodève</span><span class="plan-libelle" style="left:34.8%;top:37.9%">Clermont-l’Hérault</span><span class="plan-libelle plan-libelle--dessous" style="left:76.6%;top:41%">Montpellier</span><span class="plan-libelle" style="left:14.5%;top:93.6%">Béziers</span>
+    <span class="plan-libelle plan-libelle--echelle" style="left:88.4%;top:94.3%">10 km</span>
+    <span class="plan-libelle plan-libelle--nord" style="left:95.9%;top:20.5%">N</span>
+  </div>
+</figure>
+  </div>
+</section>
+</main>
+<footer class="pied" id="pied">
+  <div class="conteneur pied-grille">
+    <div class="pied-marque">
+      <picture><source type="image/webp" srcset="/assets/images/logo-clair-96.webp 1x, /assets/images/logo-clair-192.webp 2x"><img src="/assets/images/logo-clair-96.png" alt="BECOM-D" width="344" height="96"></picture>
+      <p>Bureau d’études conception mécanique &amp; design, proche de Montpellier et de Béziers.</p>
+    </div>
+    <div>
+      <p class="mono pied-titre">Contact</p>
+      <p>Frédéric De San Nicolas<br>7 bis, route de Saint-Privat<br>34700 Saint-Jean-de-la-Blaquière</p>
+      <p>Portable&nbsp;: <a href="tel:+33678752833">06 78 75 28 33</a><br>Fixe&nbsp;: <a href="tel:+33467443569">04 67 44 35 69</a><br><a href="mailto:fdsn@becom-d.fr">fdsn@becom-d.fr</a></p>
+    </div>
+    <nav aria-label="Plan du site">
+      <p class="mono pied-titre">Plan du site</p>
+      <ul><li><a href="/" data-libelle="Accueil">Accueil</a></li><li><a href="/competences" data-libelle="Compétences">Compétences</a></li><li><a href="/robotique-sous-marine" data-libelle="Robotique sous-marine">Robotique sous-marine</a></li><li><a href="/contact" data-libelle="Contact" aria-current="page">Contact</a></li><li><a href="/mentions-legales" data-libelle="Mentions légales">Mentions légales</a></li></ul>
+    </nav>
+    <div>
+      <p class="mono pied-titre">Confort</p>
+      <ul>
+        <li><button type="button" class="lien" data-calme-bascule data-libelle-reduire="Réduire les animations" data-libelle-retablir="Rétablir les animations" data-libelle-systeme="Animations réduites par le réglage de votre appareil"><span data-libelle-bouton>Réduire les animations</span></button></li>
+        <li><a href="#haut" data-sans-transition>Retour en haut</a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="conteneur pied-bas"><p>Maquette : les informations marquées « à compléter » seront fournies par le client.</p><p>© BECOM-D</p></div>
+</footer>
+<div data-barre-fixe>
+  <a class="bouton bouton--contour" href="tel:+33678752833">Appeler</a>
+  <a class="bouton" href="/contact" data-libelle="Contact">Décrire mon projet</a>
+</div>
+</body>
+</html>

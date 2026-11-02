@@ -1,0 +1,378 @@
+{
+  "commun": {
+    "navigation": "Navigation principale",
+    "menu": "Menu",
+    "fermer": "Fermer",
+    "langueAutre": "English version",
+    "actionEntete": "Décrire mon projet",
+    "appeler": "Appeler",
+    "calmeReduire": "Réduire les animations",
+    "calmeRetablir": "Rétablir les animations",
+    "calmeSysteme": "Animations réduites par le réglage de votre appareil",
+    "sommaire": "Sommaire",
+    "confort": "Confort",
+    "retourHaut": "Retour en haut",
+    "maquette": "Maquette : les informations marquées « à compléter » seront fournies par le client.",
+    "evitement": "Aller au contenu",
+    "mentionIa": "Illustration générée",
+    "pause": "Pause",
+    "lecture": "Lecture",
+    "introLigne": "Bureau d’études · conception mécanique & design",
+    "introCote": "De l’idée au prototype",
+    "introLieu": "Saint-Jean-de-la-Blaquière · Hérault",
+    "logoAlt": "BECOM‑D, accueil",
+    "piedTexte": "Bureau d’études conception mécanique & design, proche de Montpellier et de Béziers.",
+    "piedContact": "Contact",
+    "piedPlan": "Plan du site",
+    "interlocuteur": "Interlocuteur",
+    "portable": "Portable",
+    "fixe": "Fixe",
+    "email": "E-mail",
+    "adresse": "Adresse",
+    "decrire": "Décrire mon projet",
+    "folio": "Folio",
+    "be": "Bureau d’études"
+  },
+  "pages": {
+    "accueil": {
+      "titre": "BECOM-D : bureau d’études conception mécanique & design, Hérault",
+      "description": "Conception mécanique générale et micro-mécanique, design, mécatronique, robotique sous-marine et prototypage rapide SLA. Proche de Montpellier et de Béziers.",
+      "nav": "Accueil",
+      "partageAlt": "BECOM-D, bureau d’études conception mécanique & design : le ROV Hilarion",
+      "accroche": "De l’idée au prototype, un bureau d’études mécaniques"
+    },
+    "competences": {
+      "titre": "Compétences : BECOM-D, bureau d’études mécaniques",
+      "description": "Faisabilité, conception, mise en plan, design, communication et prototypage : les savoir-faire de BECOM-D, sous SolidWorks Premium.",
+      "nav": "Compétences",
+      "partageAlt": "Compétences de BECOM-D : vue éclatée au trait",
+      "accroche": "Faisabilité, conception, mise en plan, design, prototypage"
+    },
+    "robotique-sous-marine": {
+      "titre": "Robotique sous-marine : BECOM-D conçoit pour l’immersion, de 0 à 6000 m",
+      "description": "ROV, manipulateurs, caméras, projecteurs, actionneurs, caissons étanches : BECOM-D conçoit vos produits destinés à l’immersion, de 0 à 6000 mètres.",
+      "nav": "Robotique sous-marine",
+      "partageAlt": "Robotique sous-marine par BECOM-D : le ROV Hilarion",
+      "accroche": "Concevoir pour l’immersion, de 0 à 6000 mètres"
+    },
+    "contact": {
+      "titre": "Décrire votre projet : contact BECOM-D",
+      "description": "Une idée, un schéma, un cahier des charges, des plans : décrivez votre projet à BECOM-D, à Saint-Jean-de-la-Blaquière (Hérault).",
+      "nav": "Contact",
+      "partageAlt": "Contact BECOM-D : table à dessin, calque et compas",
+      "accroche": "Décrivez votre projet, de l’idée aux plans"
+    },
+    "mentions-legales": {
+      "titre": "Mentions légales et confidentialité : BECOM-D",
+      "description": "Éditeur, hébergeur, crédits et politique de confidentialité du site BECOM-D.",
+      "nav": "Mentions légales",
+      "partageAlt": "Mentions légales de BECOM-D",
+      "accroche": "Mentions légales et confidentialité"
+    },
+    "404": {
+      "titre": "Cote hors tolérance : page introuvable, BECOM-D",
+      "description": "Cette page n’existe pas ou a été déplacée.",
+      "nav": "Page introuvable",
+      "partageAlt": "Page introuvable",
+      "accroche": "Cote hors tolérance"
+    }
+  },
+  "accueil": {
+    "hero": {
+      "l1": "Bureau d’études",
+      "l2": "conception mécanique",
+      "l3": "& design",
+      "texte": "Spécialiste de la conception mécanique générale et micro-mécanique, BECOM‑D développe vos produits, de l’étude de faisabilité jusqu’au prototype.",
+      "action": "Décrire mon projet",
+      "info": "06 78 75 28 33 · <span class=\"insecable\">Saint-Jean-de-la-Blaquière</span>, Hérault",
+      "infoAria": "Appeler BECOM‑D au 06 78 75 28 33",
+      "altTrait": "Plan au trait d’un ROV vu de face, dessiné par BECOM‑D",
+      "altPhoto": "Détail du ROV Hilarion : coque jaune marquée becom-d et caméra frontale",
+      "detail": "Détail A",
+      "detailNom": "ROV Hilarion",
+      "planche": "Planche 01 · ROV, vue de face",
+      "defiler": "Folio A3 · échelle libre"
+    },
+    "besoins": {
+      "repere": "01 · Vos besoins",
+      "titre": "Vous avez un projet et souhaitez :",
+      "b1": "Concevoir et fabriquer votre produit",
+      "b2": "Externaliser vos études",
+      "b3": "Renforcer ponctuellement vos équipes BE méca",
+      "b4": "Gagner en flexibilité et en réactivité",
+      "texte": "Plus de 25 ans d’expérience en bureau d’études mécaniques. Quel que soit votre secteur, BECOM‑D s’adapte à votre façon de travailler, selon vos besoins.",
+      "alt": "Grand plan au trait d’une unité d’osmose, dessiné par BECOM‑D"
+    },
+    "methode": {
+      "repere": "02 · Méthode",
+      "titre": "De l’idée au prototype",
+      "texte": "Cinq étapes, un même interlocuteur. Parce que l’esthétique de vos produits doit être aussi performante que leurs capacités techniques, le design fait partie du parcours.",
+      "etape": "Étape"
+    },
+    "domaines": {
+      "repere": "03 · Domaines",
+      "titre": "Cinq domaines, un même bureau d’études",
+      "voir": "Voir la page",
+      "detail": "Voir dans Compétences",
+      "glisser": "Mécanique, robotique, mécatronique, design, prototypage"
+    },
+    "realisations": {
+      "repere": "04 · Réalisations",
+      "titre": "Sur la table à dessin",
+      "texte": "Quelques projets conçus par BECOM‑D.",
+      "region": "Réalisations, défilement horizontal",
+      "aCompleter": "Description à compléter",
+      "glisser": "Faites glisser"
+    },
+    "plongee": {
+      "repere": "05 · Robotique sous-marine",
+      "titre": "De 0 à <span class=\"insecable\">6 000 mètres</span>",
+      "texte": "Grâce à sa forte expérience dans la robotique sous-marine, BECOM‑D conçoit vos produits destinés à l’immersion, de 0 à 6 000 mètres.",
+      "liste": "Ce que BECOM‑D conçoit",
+      "lien": "La robotique sous-marine",
+      "jauge": "Plage d’immersion",
+      "altPhoto": "Le ROV Hilarion, coque jaune marquée becom-d, caméra frontale"
+    },
+    "presse": {
+      "repere": "06 · Presse",
+      "titre": "Ils en ont parlé",
+      "texte": "Le LIRMM, à Montpellier, a confié à BECOM‑D la conception mécanique de ses robots sous-marins."
+    },
+    "atelier": {
+      "repere": "06 · Atelier",
+      "titre": "Stéréolithographie",
+      "texte": "BECOM‑D vous propose l’impression 3D de bureau, en qualité industrielle. La stéréolithographie construit un modèle par couches, en durcissant un polymère liquide à l’aide d’un rayon laser.",
+      "machine": "Imprimante 3D Form 2",
+      "volume": "Volume d’impression",
+      "volumeValeur": "145 × 145 × 175 mm",
+      "couches": "Épaisseur des couches",
+      "couchesValeur": "25 à 100 microns",
+      "faisceau": "Faisceau laser",
+      "faisceauValeur": "140 microns",
+      "puissance": "Puissance laser",
+      "puissanceValeur": "250 mW",
+      "resines": "Résines classiques (noire, grise, blanche, claire), techniques (haute résistance, haute température, flexible, durable), joaillerie, dentaire, céramique.",
+      "cube": "Volume d’impression de la Form 2 : 145 par 145 par 175 millimètres",
+      "alt": "Pièce en résine translucide imprimée couche par couche sous la lumière UV"
+    },
+    "bureau": {
+      "repere": "07 · Le bureau",
+      "titre": "Un interlocuteur, de l’idée au prototype",
+      "texte": "Frédéric De San Nicolas conduit vos études, de la faisabilité au prototype, et s’entoure de partenaires pour l’électronique et la fabrication.",
+      "f1": "Conception sous SolidWorks Premium : pièces, assemblages, mises en plan 2D, simulation et rendus photoréalistes",
+      "f2": "Mécatronique clé en main avec Airbotech, bureau d’études électronique",
+      "f3": "Prototypes SLA sur place, ou en bonne matière via un réseau de partenaires",
+      "alt": "Le bureau de BECOM‑D : postes de conception et mur en pierre"
+    },
+    "projet": {
+      "titre": "Votre projet, dans le cartouche",
+      "texte": "Une idée, un schéma, un cahier des charges ou des plans : décrivez où en est votre projet.",
+      "action": "Décrire mon projet",
+      "projet": "Projet",
+      "projetValeur": "Le vôtre",
+      "be": "Bureau d’études",
+      "beValeur": "BECOM‑D",
+      "plan": "Plan de situation de Saint-Jean-de-la-Blaquière, entre Montpellier et Béziers"
+    }
+  },
+  "competences": {
+    "tete": {
+      "titre": "Compétences",
+      "texte": "Spécialiste de la conception mécanique générale et micro-mécanique, BECOM‑D vous accompagne de l’étude de faisabilité jusqu’au prototypage, et s’adapte à votre façon de travailler.",
+      "info": "Plus de 25 ans d’expérience en bureau d’études mécaniques",
+      "alt": "Vue éclatée au trait d’un mécanisme, sur fond de béton clair",
+      "repere": "Bureau d’études"
+    },
+    "secteurs": {
+      "repere": "01 · Secteurs",
+      "titre": "Quel que soit votre secteur",
+      "s1": "Nucléaire",
+      "s2": "Offshore",
+      "s3": "Assainissement",
+      "s4": "Le vôtre",
+      "texte": "BECOM‑D s’adapte à votre façon de travailler, selon vos besoins, et vous épaule jusqu’au prototype.",
+      "alt": "Plan au trait d’un châssis de ROV sur fond turquoise"
+    },
+    "savoir": {
+      "repere": "02 · Savoir-faire",
+      "titre": "Ce que BECOM‑D fait pour vous",
+      "faisabilite": "Faisabilité",
+      "faisabiliteTexte": "Études de faisabilité, cahier des charges : BECOM‑D vous épaule dans l’élaboration de ces documents, qui définissent précisément vos besoins et ceux de vos clients.",
+      "conception": "Conception",
+      "conceptionTexte": "Une forte expérience en conception micro-mécanique et mécanique générale fera de BECOM‑D votre partenaire privilégié.",
+      "plan": "Mise en plan",
+      "planTexte": "Étape indispensable entre la conception et la fabrication : BECOM‑D élabore vos dessins techniques, selon les normes en vigueur.",
+      "design": "Design",
+      "designTexte": "Démarquez-vous auprès de vos clients en apportant à vos produits un design en totale adéquation avec leurs fonctionnalités.",
+      "communication": "Communication",
+      "communicationTexte": "Augmentez l’impact visuel de vos produits : vues artistiques, rendus photoréalistes, vidéos en images de synthèse pour vos outils de communication.",
+      "altFaisabilite": "Plan au trait d’une unité d’osmose",
+      "altConception": "Simulation des contraintes sur une bague usinée, en deux vues",
+      "altPlan": "Mise en plan d’une pièce : vues cotées, coupes et cartouche",
+      "altDesign": "Rendu 3D d’un engin à coque verte alvéolée",
+      "altCommunication": "Rendu photoréaliste d’un ROV à coque rouge"
+    },
+    "outils": {
+      "repere": "03 · Outils",
+      "titre": "Sous SolidWorks Premium",
+      "o1": "Une solution de conception 3D pour créer rapidement pièces, assemblages et mises en plan 2D.",
+      "o2": "Des outils spécialisés pour la tôlerie, les assemblages soudés, les surfaces, les moules, les outils et les matrices.",
+      "o3": "De puissants outils de simulation et de validation des conceptions.",
+      "o4": "La création de rendus photoréalistes.",
+      "alt": "Simulation des déformations d’un caisson cylindrique, en couleurs",
+      "version": "Version citée sur le site actuel : 2020 (à confirmer)"
+    },
+    "livrables": {
+      "repere": "04 · Livrables",
+      "titre": "Ce que vous recevez",
+      "texte": "Des dossiers de fabrication complets :",
+      "l1": "Nomenclatures",
+      "l2": "Plans d’ensemble et de détail",
+      "l3": "Notes de calcul",
+      "l4": "Modèles 3D",
+      "alt": "Vue éclatée d’un caisson étanche et de ses cartes électroniques"
+    },
+    "domaines": {
+      "repere": "05 · Domaines",
+      "titre": "Les cinq domaines",
+      "airbotech": "Le site d’Airbotech"
+    },
+    "fin": {
+      "titre": "Un projet à étudier ?",
+      "texte": "Décrivez-le en quelques étapes : besoin, domaine, stade d’avancement.",
+      "action": "Décrire mon projet",
+      "alt": "Rendu 3D d’une unité de filtration sur châssis (unité Osmose)"
+    }
+  },
+  "robotique": {
+    "tete": {
+      "titre": "Robotique sous-marine",
+      "texte": "Grâce à sa forte expérience dans le secteur de la robotique sous-marine, BECOM‑D conçoit vos produits destinés à l’immersion.",
+      "info": "De 0 à 6 000 mètres",
+      "action": "Décrire mon projet sous-marin",
+      "alt": "Le ROV Hilarion, coque jaune marquée becom-d, caméra frontale"
+    },
+    "descente": {
+      "repere": "01 · La descente",
+      "titre": "Ce que BECOM‑D conçoit pour l’immersion",
+      "texte": "Des produits destinés à l’immersion, de 0 à 6 000 mètres.",
+      "jauge": "Plage d’immersion"
+    },
+    "trait": {
+      "repere": "02 · Conception",
+      "titre": "Du trait à l’eau",
+      "texte": "Chaque ROV commence au trait : vue de profil, vue de face, puis rendu, avant d’être fabriqué et immergé.",
+      "altProfil": "Plan au trait d’un ROV vu de profil",
+      "altEsquisse": "ROV jaune : le trait",
+      "altRendu": "ROV jaune : le rendu 3D",
+      "legende": "ROV jaune · du trait au rendu",
+      "altFace": "Plan au trait d’un ROV vu de face",
+      "legendeProfil": "Profil · le trait",
+      "legendeFace": "Face · le trait",
+      "legendeRendu": "ROV jaune · du trait au rendu"
+    },
+    "recherche": {
+      "repere": "03 · Recherche et presse",
+      "titre": "Avec la recherche sous-marine",
+      "texte": "BECOM‑D a assuré la conception mécanique de robots sous-marins du LIRMM (laboratoire d’informatique, de robotique et de microélectronique de Montpellier).",
+      "p1": "Projet Corsaire Concept, piloté par le DRASSM : archéologie sous-marine en grande profondeur",
+      "p2": "Robot de surveillance de structures immergées, avec Tecnalia France",
+      "altArticle": "Article du journal du CNRS : « Un robot pour explorer les épaves »"
+    },
+    "fin": {
+      "titre": "Un produit à immerger ?",
+      "texte": "ROV, caméra, projecteur, actionneur, caisson étanche : décrivez votre besoin et sa profondeur.",
+      "action": "Décrire mon projet sous-marin"
+    }
+  },
+  "contact": {
+    "tete": {
+      "titre": "Décrire votre projet",
+      "texte": "Une idée, un schéma, un cahier des charges, des plans : dites où en est votre projet. Vous pouvez aussi appeler directement.",
+      "info": "06 78 75 28 33",
+      "infoAria": "Appeler BECOM‑D au 06 78 75 28 33",
+      "alt": "Table à dessin : feuilles de calque, porte-mine et compas",
+      "action": "Commencer ma demande"
+    },
+    "formulaire": {
+      "titre": "Votre demande en quatre étapes",
+      "deroule": "Besoin, domaine, stade du projet, puis vos coordonnées. Rien n’est envoyé : demande simulée.",
+      "etape": "Étape",
+      "sur": "sur",
+      "suivant": "Étape suivante",
+      "precedent": "Étape précédente",
+      "besoin": "Votre besoin",
+      "domaine": "Le domaine",
+      "autre": "Autre domaine",
+      "stade": "Où en est votre projet ?",
+      "st1": "Une idée",
+      "st2": "Un schéma ou un croquis",
+      "st3": "Un cahier des charges",
+      "st4": "Des plans ou un modèle 3D",
+      "st5": "Un prototype à reprendre",
+      "delai": "Délai souhaité",
+      "d0": "Pas encore défini",
+      "d1": "Dès que possible",
+      "d2": "Dans le mois",
+      "d3": "Dans le trimestre",
+      "coordonnees": "Vos coordonnées",
+      "nom": "Nom",
+      "societe": "Société (facultatif)",
+      "email": "E-mail",
+      "tel": "Téléphone (facultatif)",
+      "message": "Votre projet en quelques lignes",
+      "fichiers": "Pièces jointes : croquis, plans, photos (simulé)",
+      "consentement": "J’accepte que mes données servent seulement à répondre à ma demande.",
+      "donnees": "Vos données servent seulement à répondre à votre demande. <a href=\"/mentions-legales#confidentialite\">Politique de confidentialité</a> (à compléter).",
+      "envoyer": "Envoyer la demande (simulé)",
+      "envoye": "Demande simulée : rien n’a été envoyé. Sur le site final, elle partira vers BECOM‑D.",
+      "recap": "Votre cartouche",
+      "recapVide": "à renseigner",
+      "recapAria": "Récapitulatif de votre demande",
+      "recapFichiers": "Pièces jointes",
+      "choisir": "Choisissez une option pour continuer.",
+      "onglets": {
+        "o1": "Besoin",
+        "o2": "Domaine",
+        "o3": "Stade",
+        "o4": "Coordonnées"
+      }
+    },
+    "coordonnees": {
+      "repere": "Coordonnées",
+      "titre": "BECOM‑D, à Saint‑Jean‑de‑la‑Blaquière",
+      "texte": "Entre Montpellier et Béziers, dans l’Hérault.",
+      "plan": "Plan de situation de Saint-Jean-de-la-Blaquière, entre Montpellier et Béziers"
+    }
+  },
+  "mentions": {
+    "titre": "Mentions légales et confidentialité",
+    "alt": "Pile de feuilles de calque, vue rasante",
+    "fiche": {
+      "titre": "À fournir par le client",
+      "texte": "Numéro de TVA intracommunautaire · ville du RCS · capital social à confirmer · assurance responsabilité civile professionnelle, si elle doit figurer · politique de confidentialité · droits d’utilisation des coupures de presse · rendus SolidWorks en haute définition."
+    },
+    "editeur": {
+      "titre": "Éditeur",
+      "texte": "BECOM‑D, dénomination au registre : « Bureau d’études conception mécaniques & design » (à confirmer), SARL unipersonnelle au capital de 4 000 € (à confirmer). Siège : 7 bis, route de Saint-Privat, 34700 Saint-Jean-de-la-Blaquière. SIRET 518 341 789 00015, code NAF 71.12B. Directeur de la publication : Frédéric De San Nicolas. Téléphone : 06 78 75 28 33. E-mail : fdsn@becom-d.fr. RCS et TVA intracommunautaire : à compléter."
+    },
+    "hebergeur": {
+      "titre": "Hébergeur",
+      "texte": "Vercel Inc., 440 N Barranca Avenue #4133, Covina, CA 91723, États-Unis. Site : vercel.com."
+    },
+    "credits": {
+      "titre": "Crédits",
+      "texte": "Plans, rendus et photographies des réalisations : BECOM‑D. Coupures de presse : R•EEL-R (n° 12, mars 2015, photo © Vincent Creuze), L’accent du Sud (n° 33, juillet-août 2014), CNRS, le journal (n° 279, hiver 2015, crédits photos : T. Geguin, F. Osada, DRASSM, Images Explorations). Les images marquées « Illustration générée » ont été créées par intelligence artificielle : elles ne représentent ni une réalisation, ni une machine, ni un lieu de BECOM‑D. Polices : Archivo et IBM Plex, sous licence SIL Open Font License."
+    },
+    "confidentialite": {
+      "titre": "Confidentialité",
+      "texte": "À compléter (RGPD) : données recueillies par le formulaire de contact (nom, société, e-mail, téléphone, description du projet, pièces jointes), finalité (répondre à la demande), durée de conservation, destinataire (BECOM‑D seulement), droits d’accès, de rectification et d’effacement, contact pour les exercer. Ce site de démonstration n’envoie aucune donnée et n’utilise aucun cookie de mesure d’audience."
+    }
+  },
+  "introuvable": {
+    "titre": "Cote hors tolérance",
+    "texte": "Cette page n’existe pas ou a été déplacée : la pièce ne tombe pas dans son contour.",
+    "retour": "Revenir à l’accueil",
+    "alt": "Une pièce usinée posée à côté de son contour au crayon, qui ne correspond pas"
+  }
+}

@@ -1,0 +1,433 @@
+[
+ {
+  "source": "recu/site/rov-hilarion.jpg",
+  "nom": "site/rov-hilarion",
+  "cadrage": [
+   62,
+   50
+  ]
+ },
+ {
+  "source": "recu/site/oceanview-trait.jpg",
+  "nom": "site/oceanview-trait",
+  "cadrage": [
+   50,
+   50
+  ]
+ },
+ {
+  "source": "recu/site/oceanview-simulation.jpg",
+  "nom": "site/oceanview-simulation",
+  "cadrage": [
+   50,
+   50
+  ]
+ },
+ {
+  "source": "recu/site/oceanview-piece.jpg",
+  "nom": "site/oceanview-piece",
+  "cadrage": [
+   50,
+   50
+  ]
+ },
+ {
+  "source": "recu/site/osmose-trait.jpg",
+  "nom": "site/osmose-trait",
+  "cadrage": [
+   50,
+   50
+  ]
+ },
+ {
+  "source": "recu/site/osmose-rendu.jpg",
+  "nom": "site/osmose-rendu",
+  "cadrage": [
+   50,
+   50
+  ]
+ },
+ {
+  "source": "recu/site/osmose-rendu-realiste.jpg",
+  "nom": "site/osmose-rendu-realiste",
+  "cadrage": [
+   50,
+   50
+  ]
+ },
+ {
+  "source": "recu/site/mise-en-plan.jpg",
+  "nom": "site/mise-en-plan",
+  "cadrage": [
+   50,
+   50
+  ]
+ },
+ {
+  "source": "recu/site/rov-rouge-rendu.jpg",
+  "nom": "site/rov-rouge-rendu",
+  "cadrage": [
+   50,
+   50
+  ]
+ },
+ {
+  "source": "recu/site/simulation-piece.jpg",
+  "nom": "site/simulation-piece",
+  "cadrage": [
+   50,
+   50
+  ]
+ },
+ {
+  "source": "recu/site/chassis-rendu.jpg",
+  "nom": "site/chassis-rendu",
+  "cadrage": [
+   50,
+   50
+  ]
+ },
+ {
+  "source": "recu/site/bureau.jpg",
+  "nom": "site/bureau",
+  "cadrage": [
+   50,
+   50
+  ]
+ },
+ {
+  "source": "recu/site/rov-chassis-turquoise.jpg",
+  "nom": "site/rov-chassis-turquoise",
+  "cadrage": [
+   50,
+   50
+  ]
+ },
+ {
+  "source": "recu/site/presse-reel-r-2015.jpg",
+  "nom": "site/presse-reel-r-2015",
+  "cadrage": [
+   50,
+   50
+  ]
+ },
+ {
+  "source": "recu/site/presse-cnrs-journal-279.jpg",
+  "nom": "site/presse-cnrs-journal-279",
+  "cadrage": [
+   50,
+   50
+  ]
+ },
+ {
+  "source": "recu/site/presse-accent-du-sud-33.jpg",
+  "nom": "site/presse-accent-du-sud-33",
+  "cadrage": [
+   50,
+   50
+  ]
+ },
+ {
+  "source": "recu/site/presse-cnrs-article.jpg",
+  "nom": "site/presse-cnrs-article",
+  "cadrage": [
+   50,
+   50
+  ]
+ },
+ {
+  "source": "recu/site/osmose-trait-grand.jpg",
+  "nom": "site/osmose-trait-grand",
+  "cadrage": [
+   50,
+   50
+  ],
+  "mobile": true,
+  "cadrageMobile": [
+   42,
+   50
+  ]
+ },
+ {
+  "source": "recu/site/eclate-beton.jpg",
+  "nom": "site/eclate-beton",
+  "cadrage": [
+   45,
+   45
+  ],
+  "mobile": true,
+  "cadrageMobile": [
+   40,
+   50
+  ]
+ },
+ {
+  "source": "recu/site/rov-face-trait.png",
+  "nom": "site/rov-face-trait",
+  "cadrage": [
+   50,
+   50
+  ],
+  "alpha": true
+ },
+ {
+  "source": "recu/site/rov-profil-trait.png",
+  "nom": "site/rov-profil-trait",
+  "cadrage": [
+   50,
+   50
+  ],
+  "alpha": true
+ },
+ {
+  "source": "recu/site/rov-jaune-rendu.png",
+  "nom": "site/rov-jaune-rendu",
+  "cadrage": [
+   50,
+   50
+  ],
+  "alpha": true
+ },
+ {
+  "source": "recu/site/caisson-eclate-rendu.png",
+  "nom": "site/caisson-eclate-rendu",
+  "cadrage": [
+   50,
+   50
+  ],
+  "alpha": true
+ },
+ {
+  "source": "recu/site/drone-vert-rendu.png",
+  "nom": "site/drone-vert-rendu",
+  "cadrage": [
+   50,
+   50
+  ],
+  "alpha": true
+ },
+ {
+  "source": "recu/site/rov-jaune-trait-banniere.png",
+  "nom": "site/rov-jaune-trait-banniere",
+  "cadrage": [
+   50,
+   50
+  ],
+  "alpha": true
+ },
+ {
+  "source": "recu/site/rov-jaune-rendu-banniere.png",
+  "nom": "site/rov-jaune-rendu-banniere",
+  "cadrage": [
+   50,
+   50
+  ],
+  "alpha": true
+ },
+ {
+  "source": "recu/site/logo.png",
+  "nom": "site/logo",
+  "cadrage": [
+   50,
+   50
+  ],
+  "alpha": true
+ },
+ {
+  "source": "recu/site/logo-marque.png",
+  "nom": "site/logo-marque",
+  "cadrage": [
+   50,
+   50
+  ],
+  "alpha": true
+ },
+ {
+  "source": "recu/site/mecanique-esquisse.png",
+  "nom": "site/mecanique-esquisse",
+  "cadrage": [
+   50,
+   50
+  ],
+  "alpha": true
+ },
+ {
+  "source": "recu/site/mecanique-rendu.png",
+  "nom": "site/mecanique-rendu",
+  "cadrage": [
+   50,
+   50
+  ],
+  "alpha": true
+ },
+ {
+  "source": "recu/site/robotique-esquisse.png",
+  "nom": "site/robotique-esquisse",
+  "cadrage": [
+   50,
+   50
+  ],
+  "alpha": true
+ },
+ {
+  "source": "recu/site/robotique-rendu.png",
+  "nom": "site/robotique-rendu",
+  "cadrage": [
+   50,
+   50
+  ],
+  "alpha": true
+ },
+ {
+  "source": "recu/site/mecatronique-esquisse.png",
+  "nom": "site/mecatronique-esquisse",
+  "cadrage": [
+   50,
+   50
+  ],
+  "alpha": true
+ },
+ {
+  "source": "recu/site/mecatronique-rendu.png",
+  "nom": "site/mecatronique-rendu",
+  "cadrage": [
+   50,
+   50
+  ],
+  "alpha": true
+ },
+ {
+  "source": "recu/site/design-esquisse.png",
+  "nom": "site/design-esquisse",
+  "cadrage": [
+   50,
+   50
+  ],
+  "alpha": true
+ },
+ {
+  "source": "recu/site/design-rendu.png",
+  "nom": "site/design-rendu",
+  "cadrage": [
+   50,
+   50
+  ],
+  "alpha": true
+ },
+ {
+  "source": "recu/site/prototypage-esquisse.png",
+  "nom": "site/prototypage-esquisse",
+  "cadrage": [
+   50,
+   50
+  ],
+  "alpha": true
+ },
+ {
+  "source": "recu/site/prototypage-rendu.png",
+  "nom": "site/prototypage-rendu",
+  "cadrage": [
+   50,
+   50
+  ],
+  "alpha": true
+ },
+ {
+  "source": "recu/grok/accueil-sla-16x9.jpg",
+  "nom": "grok/accueil-sla",
+  "cadrage": [
+   70,
+   50
+  ],
+  "mobileSource": "recu/grok/accueil-sla-9x16.jpg"
+ },
+ {
+  "source": "recu/grok/plongee-colonne-16x9.jpg",
+  "nom": "grok/plongee-colonne",
+  "cadrage": [
+   50,
+   30
+  ],
+  "mobileSource": "recu/grok/plongee-colonne-9x16.jpg"
+ },
+ {
+  "source": "recu/grok/robotique-abysses-16x9.jpg",
+  "nom": "grok/robotique-abysses",
+  "cadrage": [
+   50,
+   60
+  ],
+  "mobileSource": "recu/grok/robotique-abysses-9x16.jpg"
+ },
+ {
+  "source": "recu/grok/contact-ouverture-16x9.jpg",
+  "nom": "grok/contact-ouverture",
+  "cadrage": [
+   72,
+   50
+  ],
+  "mobileSource": "recu/grok/contact-ouverture-9x16.jpg"
+ },
+ {
+  "source": "recu/grok/legal-ouverture-16x9.jpg",
+  "nom": "grok/legal-ouverture",
+  "cadrage": [
+   75,
+   55
+  ],
+  "mobileSource": "recu/grok/legal-ouverture-9x16.jpg"
+ },
+ {
+  "source": "recu/grok/404-ouverture-16x9.jpg",
+  "nom": "grok/404-ouverture",
+  "cadrage": [
+   70,
+   40
+  ],
+  "mobileSource": "recu/grok/404-ouverture-9x16.jpg"
+ },
+ {
+  "source": "recu/grok/mecanique-ouverture-16x9.jpg",
+  "nom": "grok/mecanique-ouverture",
+  "cadrage": [
+   72,
+   50
+  ],
+  "mobileSource": "recu/grok/mecanique-ouverture-9x16.jpg"
+ },
+ {
+  "source": "recu/grok/mecatronique-ouverture-16x9.jpg",
+  "nom": "grok/mecatronique-ouverture",
+  "cadrage": [
+   75,
+   50
+  ],
+  "mobileSource": "recu/grok/mecatronique-ouverture-9x16.jpg"
+ },
+ {
+  "source": "recu/grok/design-ouverture-16x9.jpg",
+  "nom": "grok/design-ouverture",
+  "cadrage": [
+   72,
+   55
+  ],
+  "mobileSource": "recu/grok/design-ouverture-9x16.jpg"
+ },
+ {
+  "source": "recu/grok/sla-ouverture-16x9.jpg",
+  "nom": "grok/sla-ouverture",
+  "cadrage": [
+   70,
+   50
+  ],
+  "mobileSource": "recu/grok/sla-ouverture-9x16.jpg"
+ },
+ {
+  "source": "recu/grok/texture-calque-1x1.jpg",
+  "nom": "grok/texture-calque"
+ },
+ {
+  "source": "recu/grok/texture-beton-1x1.jpg",
+  "nom": "grok/texture-beton"
+ }
+]

@@ -1,0 +1,38 @@
+[
+ {
+  "titre": "L’idée",
+  "texte": "Études de faisabilité, cahier des charges : BECOM‑D vous épaule pour définir précisément vos besoins et ceux de vos clients.",
+  "image": "site/oceanview-trait",
+  "legende": "Oceanview VR · le trait",
+  "alt": "Plan au trait d’un caisson cylindrique"
+ },
+ {
+  "titre": "Conception",
+  "texte": "Une forte expérience en conception micro-mécanique et mécanique générale, avec simulation et validation des choix.",
+  "image": "site/oceanview-simulation",
+  "legende": "Oceanview VR · la simulation",
+  "alt": "Simulation des déformations du caisson, en couleurs"
+ },
+ {
+  "titre": "Mise en plan",
+  "texte": "L’étape indispensable entre la conception et la fabrication : vos dessins techniques, selon les normes en vigueur.",
+  "image": "site/mise-en-plan",
+  "legende": "Mise en plan · cotes et cartouche",
+  "alt": "Mise en plan d’une pièce : vues cotées, coupes et cartouche",
+  "planche": true
+ },
+ {
+  "titre": "Design",
+  "texte": "Un design en totale adéquation avec les fonctionnalités de vos produits, pour vous démarquer auprès de vos clients.",
+  "image": "site/osmose-rendu-realiste",
+  "legende": "Unité Osmose · le rendu",
+  "alt": "Rendu 3D réaliste d’une unité de filtration"
+ },
+ {
+  "titre": "Prototypage",
+  "texte": "Vos prototypes en impression 3D SLA sur place, ou en bonne matière grâce à un réseau de partenaires.",
+  "image": "site/oceanview-piece",
+  "legende": "Oceanview VR · usiné en bonne matière",
+  "alt": "Le caisson usiné en aluminium"
+ }
+]

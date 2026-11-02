@@ -1,0 +1,41 @@
+[
+ {
+  "titre": "ROV Hilarion",
+  "domaine": "Robotique sous-marine",
+  "image": "site/rov-hilarion",
+  "cadrage": "30% 50%",
+  "alt": "Le ROV Hilarion, coque jaune marquée becom-d, caméra frontale"
+ },
+ {
+  "titre": "ROV à coque rouge",
+  "domaine": "Robotique sous-marine",
+  "image": "site/rov-rouge-rendu",
+  "cadrage": "50% 50%",
+  "planche": true,
+  "alt": "Rendu 3D d’un ROV à coque rouge avec projecteurs bleus"
+ },
+ {
+  "titre": "Caisson électronique",
+  "domaine": "Mécatronique",
+  "image": "site/caisson-eclate-rendu",
+  "cadrage": "50% 50%",
+  "planche": true,
+  "alt": "Vue éclatée d’un caisson étanche et de ses cartes électroniques"
+ },
+ {
+  "titre": "Unité Osmose",
+  "domaine": "Mécanique générale",
+  "image": "site/osmose-trait",
+  "cadrage": "50% 50%",
+  "planche": true,
+  "alt": "Plan au trait d’une unité de filtration sur châssis"
+ },
+ {
+  "titre": "Engin à coque alvéolée",
+  "domaine": "Design et communication",
+  "image": "site/drone-vert-rendu",
+  "cadrage": "50% 50%",
+  "planche": true,
+  "alt": "Rendu 3D d’un engin à coque verte alvéolée et propulseurs"
+ }
+]

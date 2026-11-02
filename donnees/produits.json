@@ -1,0 +1,31 @@
+[
+ {
+  "nom": "ROV"
+ },
+ {
+  "nom": "Robots sous-marins"
+ },
+ {
+  "nom": "Manipulateurs"
+ },
+ {
+  "nom": "Caméras"
+ },
+ {
+  "nom": "Projecteurs",
+  "detail": "Projecteur immergeable 1 000 mètres, 18 000 lumens",
+  "profondeur": 1000
+ },
+ {
+  "nom": "Tourelles"
+ },
+ {
+  "nom": "Actionneurs rotatifs"
+ },
+ {
+  "nom": "Actionneurs linéaires"
+ },
+ {
+  "nom": "Caissons étanches"
+ }
+]
